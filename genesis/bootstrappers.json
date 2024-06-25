@@ -1,0 +1,46 @@
+{
+    "mainnet": [
+        {
+            "id": "NodeID-2vvFjW9N6cix4iUCdaMPwjics1RBp4Fo9",
+            "ip": "18.117.169.203:9651"
+        },
+        {
+            "id": "NodeID-PozDVXGaUozS7np2WFic8wgZNF2HCra4Q",
+            "ip": "18.117.169.203:9652"
+        },
+        {
+            "id": "NodeID-BrLENhM2RPi2p2HA6uhyRbBtpJXkAaads",
+            "ip": "18.117.169.203:9653"
+        },
+        {
+            "id": "NodeID-GUjNzaoULyM9sK8JVGpzPa6B7duvzaRvQ",
+            "ip": "18.117.169.203:9654"
+        },
+        {
+            "id": "NodeID-3srFfCoZQYVd4BtfRt6WgKTu7YGFSLRQQ",
+            "ip": "18.117.169.203:9655"
+        }
+    ],
+    "mustang": [
+        {
+            "id": "NodeID-2vvFjW9N6cix4iUCdaMPwjics1RBp4Fo9",
+            "ip": "18.117.169.203:9651"
+        },
+        {
+            "id": "NodeID-PozDVXGaUozS7np2WFic8wgZNF2HCra4Q",
+            "ip": "18.117.169.203:9652"
+        },
+        {
+            "id": "NodeID-BrLENhM2RPi2p2HA6uhyRbBtpJXkAaads",
+            "ip": "18.117.169.203:9653"
+        },
+        {
+            "id": "NodeID-GUjNzaoULyM9sK8JVGpzPa6B7duvzaRvQ",
+            "ip": "18.117.169.203:9654"
+        },
+        {
+            "id": "NodeID-3srFfCoZQYVd4BtfRt6WgKTu7YGFSLRQQ",
+            "ip": "18.117.169.203:9655"
+        }
+    ]
+}

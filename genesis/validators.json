@@ -1,0 +1,16 @@
+{
+  "mainnet": [
+    "NodeID-2vvFjW9N6cix4iUCdaMPwjics1RBp4Fo9",
+    "NodeID-PozDVXGaUozS7np2WFic8wgZNF2HCra4Q",
+    "NodeID-BrLENhM2RPi2p2HA6uhyRbBtpJXkAaads",
+    "NodeID-GUjNzaoULyM9sK8JVGpzPa6B7duvzaRvQ",
+    "NodeID-3srFfCoZQYVd4BtfRt6WgKTu7YGFSLRQQ"
+  ],
+  "mustang": [
+    "NodeID-2vvFjW9N6cix4iUCdaMPwjics1RBp4Fo9",
+    "NodeID-PozDVXGaUozS7np2WFic8wgZNF2HCra4Q",
+    "NodeID-BrLENhM2RPi2p2HA6uhyRbBtpJXkAaads",
+    "NodeID-GUjNzaoULyM9sK8JVGpzPa6B7duvzaRvQ",
+    "NodeID-3srFfCoZQYVd4BtfRt6WgKTu7YGFSLRQQ"
+  ]
+}
