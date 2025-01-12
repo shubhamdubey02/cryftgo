@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
 )
 
 const (

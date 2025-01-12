@@ -10,9 +10,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
 
-	connpb "github.com/cryft-labs/cryftgo/proto/pb/net/conn"
+	connpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/net/conn"
 )
 
 var _ connpb.ConnServer = (*Server)(nil)

@@ -6,7 +6,7 @@ package network
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 var _ TxVerifier = (*LockedTxVerifier)(nil)

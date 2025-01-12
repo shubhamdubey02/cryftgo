@@ -8,8 +8,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/cryft-labs/cryftgo/network/dialer"
-	"github.com/cryft-labs/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/network/dialer"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
 )
 
 var (

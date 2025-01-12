@@ -6,9 +6,9 @@ package snowstorm
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // Tx consumes state.

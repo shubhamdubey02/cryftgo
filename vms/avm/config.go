@@ -6,7 +6,7 @@ package avm
 import (
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/vms/avm/network"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/network"
 )
 
 var DefaultConfig = Config{

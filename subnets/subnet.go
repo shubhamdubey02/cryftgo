@@ -6,9 +6,9 @@ package subnets
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 var _ Subnet = (*subnet)(nil)

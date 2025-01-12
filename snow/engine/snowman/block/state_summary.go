@@ -6,7 +6,7 @@ package block
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // StateSummary represents all the information needed to download, verify, and

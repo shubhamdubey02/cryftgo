@@ -6,8 +6,8 @@ package avm
 import (
 	"cmp"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
 )
 
 var _ utils.Sortable[*GenesisAsset] = (*GenesisAsset)(nil)

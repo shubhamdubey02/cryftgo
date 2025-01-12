@@ -11,14 +11,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils/heap"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/heap"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
 )
 
 // If a peer consistently does not respond to queries, it will

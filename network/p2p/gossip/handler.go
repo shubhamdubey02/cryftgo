@@ -9,10 +9,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/network/p2p"
-	"github.com/cryft-labs/cryftgo/utils/bloom"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/network/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 var _ p2p.Handler = (*Handler[*testTx])(nil)

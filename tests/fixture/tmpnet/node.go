@@ -18,11 +18,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/staking"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/staking"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
 )
 
 // The Node type is defined in this file (node.go - orchestration) and

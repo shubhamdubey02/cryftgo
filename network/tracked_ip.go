@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 func init() {

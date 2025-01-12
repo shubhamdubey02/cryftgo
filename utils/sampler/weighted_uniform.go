@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math"
 
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var (

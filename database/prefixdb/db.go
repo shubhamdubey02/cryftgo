@@ -8,9 +8,9 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
 )
 
 var (

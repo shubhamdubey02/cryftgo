@@ -6,9 +6,9 @@ package block
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
 )
 
 // Stateless blocks are blocks as they are marshalled/unmarshalled and sent over

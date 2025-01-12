@@ -11,7 +11,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 var (

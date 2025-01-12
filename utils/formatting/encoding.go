@@ -11,7 +11,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 const (

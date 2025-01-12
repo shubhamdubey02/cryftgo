@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 var (

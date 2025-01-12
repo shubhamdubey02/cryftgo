@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/json"
-	"github.com/cryft-labs/cryftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

@@ -11,12 +11,12 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 var (

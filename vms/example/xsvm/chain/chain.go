@@ -4,13 +4,13 @@
 package chain
 
 import (
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/state"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/state"
 
-	xsblock "github.com/cryft-labs/cryftgo/vms/example/xsvm/block"
+	xsblock "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
 )
 
 var _ Chain = (*chain)(nil)

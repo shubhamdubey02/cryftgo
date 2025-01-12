@@ -6,12 +6,12 @@ package block
 import (
 	"reflect"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
-	"github.com/cryft-labs/cryftgo/vms/avm/fxs"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
 )
 
 // CodecVersion is the current default codec version

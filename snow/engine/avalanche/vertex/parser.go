@@ -6,8 +6,8 @@ package vertex
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/snow/consensus/avalanche"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/avalanche"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
 )
 
 // Parser parses bytes into a vertex.

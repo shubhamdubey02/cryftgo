@@ -7,7 +7,7 @@ import (
 	"crypto"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/staking"
+	"github.com/shubhamdubey02/cryftgo/staking"
 )
 
 type Config struct {

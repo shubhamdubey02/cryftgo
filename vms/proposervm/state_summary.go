@@ -6,8 +6,8 @@ package proposervm
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
-	"github.com/cryft-labs/cryftgo/vms/proposervm/summary"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/summary"
 )
 
 var _ block.StateSummary = (*stateSummary)(nil)

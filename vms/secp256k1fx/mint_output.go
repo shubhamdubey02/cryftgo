@@ -3,7 +3,7 @@
 
 package secp256k1fx
 
-import "github.com/cryft-labs/cryftgo/vms/components/verify"
+import "github.com/shubhamdubey02/cryftgo/vms/components/verify"
 
 var _ verify.State = (*MintOutput)(nil)
 

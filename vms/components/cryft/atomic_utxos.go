@@ -6,10 +6,10 @@ package cryft
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // GetAtomicUTXOs returns exported UTXOs such that at least one of the

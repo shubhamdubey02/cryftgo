@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 var (

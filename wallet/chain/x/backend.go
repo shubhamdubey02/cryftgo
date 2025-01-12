@@ -6,10 +6,10 @@ package x
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
-	"github.com/cryft-labs/cryftgo/wallet/chain/x/builder"
-	"github.com/cryft-labs/cryftgo/wallet/chain/x/signer"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 )
 
 var _ Backend = (*backend)(nil)

@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/cache"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/cache"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
 )
 
 const (

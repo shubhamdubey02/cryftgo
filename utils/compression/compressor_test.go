@@ -13,8 +13,8 @@ import (
 
 	_ "embed"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
 )
 
 const maxMessageSize = 2 * units.MiB // Max message size. Can't import due to cycle.

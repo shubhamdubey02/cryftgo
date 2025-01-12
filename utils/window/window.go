@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/buffer"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/buffer"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = (*window[struct{}])(nil)

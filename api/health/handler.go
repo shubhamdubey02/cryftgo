@@ -9,9 +9,9 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 // NewGetAndPostHandler returns a health handler that supports GET and jsonrpc

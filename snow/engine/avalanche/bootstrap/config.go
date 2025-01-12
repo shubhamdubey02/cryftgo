@@ -4,13 +4,13 @@
 package bootstrap
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/network/p2p"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/engine/avalanche/bootstrap/queue"
-	"github.com/cryft-labs/cryftgo/snow/engine/avalanche/vertex"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/snow/engine/common/tracker"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/network/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/avalanche/bootstrap/queue"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/avalanche/vertex"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common/tracker"
 )
 
 type Config struct {

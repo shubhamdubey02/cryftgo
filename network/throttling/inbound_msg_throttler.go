@@ -8,11 +8,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/networking/tracker"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/metric"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/metric"
 )
 
 var _ InboundMsgThrottler = (*inboundMsgThrottler)(nil)

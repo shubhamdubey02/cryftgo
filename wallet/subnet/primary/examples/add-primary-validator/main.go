@@ -8,14 +8,14 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
 )
 
 func main() {
@@ -43,9 +43,9 @@ func main() {
 	// [uri] is hosting.
 	walletSyncStartTime := time.Now()
 	wallet, err := primary.MakeWallet(ctx, &primary.WalletConfig{
-		URI:          uri,
+		URI:           uri,
 		CRYFTKeychain: kc,
-		EthKeychain:  kc,
+		EthKeychain:   kc,
 	})
 	if err != nil {
 		log.Fatalf("failed to initialize wallet: %s\n", err)

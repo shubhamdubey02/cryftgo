@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 var _ StakerIterator = (*maskedIterator)(nil)
 

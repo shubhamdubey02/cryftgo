@@ -7,8 +7,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
 )
 
 var (

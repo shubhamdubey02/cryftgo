@@ -8,8 +8,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cryft-labs/cryftgo/api/health"
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/api/health"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
 )
 
 var (

@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/state"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
 )
 
 func TestSampleBootstrappers(t *testing.T) {

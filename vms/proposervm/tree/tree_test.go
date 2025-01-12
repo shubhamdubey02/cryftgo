@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman/snowmantest"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman/snowmantest"
 )
 
 func TestAcceptSingleBlock(t *testing.T) {

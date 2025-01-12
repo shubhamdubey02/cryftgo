@@ -4,8 +4,8 @@
 package encdb
 
 import (
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
 )
 
 const CodecVersion = 0

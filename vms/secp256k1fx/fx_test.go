@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/codec/linearcodec"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/cb58"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/cb58"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 var (

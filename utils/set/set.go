@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 // The minimum capacity of a set

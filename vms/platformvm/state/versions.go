@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 type Versions interface {
 	// GetState returns the state of the chain after [blkID] has been accepted.

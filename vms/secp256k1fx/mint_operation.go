@@ -6,8 +6,8 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
 )
 
 var errNilMintOperation = errors.New("nil mint operation")

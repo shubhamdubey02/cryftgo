@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/cryft-labs/cryftgo/tests/antithesis"
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/tests/antithesis"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-cryftgo"

@@ -7,17 +7,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 )
 
 var (

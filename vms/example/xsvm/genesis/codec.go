@@ -3,7 +3,7 @@
 
 package genesis
 
-import "github.com/cryft-labs/cryftgo/vms/example/xsvm/block"
+import "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
 
 const CodecVersion = block.CodecVersion
 

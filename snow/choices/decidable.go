@@ -6,7 +6,7 @@ package choices
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // Decidable represents element that can be decided.

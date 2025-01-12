@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	writerpb "github.com/cryft-labs/cryftgo/proto/pb/io/writer"
+	writerpb "github.com/shubhamdubey02/cryftgo/proto/pb/io/writer"
 )
 
 var _ io.Writer = (*Client)(nil)

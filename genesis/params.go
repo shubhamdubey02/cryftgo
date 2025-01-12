@@ -6,9 +6,9 @@ package genesis
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs/fee"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/fee"
 )
 
 type StakingConfig struct {

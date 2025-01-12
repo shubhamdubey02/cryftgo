@@ -6,13 +6,13 @@ package genesis
 import (
 	"path"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/vms/nftfx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/genesis"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/propertyfx"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 )
 
 var (

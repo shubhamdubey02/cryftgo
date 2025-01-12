@@ -6,9 +6,9 @@ package merkledb
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/cache"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/cache"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 var (

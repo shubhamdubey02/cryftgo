@@ -13,10 +13,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cryft-labs/cryftgo/node"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/perms"
-	"github.com/cryft-labs/cryftgo/utils/ulimit"
+	"github.com/shubhamdubey02/cryftgo/node"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ulimit"
 )
 
 const Header = `

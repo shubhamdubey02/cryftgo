@@ -3,7 +3,7 @@
 
 package signer
 
-import "github.com/cryft-labs/cryftgo/utils/crypto/bls"
+import "github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
 
 var _ Signer = (*Empty)(nil)
 

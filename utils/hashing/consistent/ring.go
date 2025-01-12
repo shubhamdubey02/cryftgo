@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 var (

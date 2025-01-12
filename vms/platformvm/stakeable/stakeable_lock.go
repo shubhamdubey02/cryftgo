@@ -6,7 +6,7 @@ package stakeable
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 )
 
 var (
@@ -15,7 +15,7 @@ var (
 )
 
 type LockOut struct {
-	Locktime             uint64 `serialize:"true" json:"locktime"`
+	Locktime              uint64 `serialize:"true" json:"locktime"`
 	cryft.TransferableOut `serialize:"true" json:"output"`
 }
 
@@ -37,7 +37,7 @@ func (s *LockOut) Verify() error {
 }
 
 type LockIn struct {
-	Locktime            uint64 `serialize:"true" json:"locktime"`
+	Locktime             uint64 `serialize:"true" json:"locktime"`
 	cryft.TransferableIn `serialize:"true" json:"input"`
 }
 

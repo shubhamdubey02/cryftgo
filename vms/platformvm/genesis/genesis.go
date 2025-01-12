@@ -4,14 +4,14 @@
 package genesis
 
 import (
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
 )
 
 // UTXO adds messages to UTXOs
 type UTXO struct {
 	cryft.UTXO `serialize:"true"`
-	Message   []byte `serialize:"true" json:"message"`
+	Message    []byte `serialize:"true" json:"message"`
 }
 
 // Genesis represents a genesis state of the platform chain

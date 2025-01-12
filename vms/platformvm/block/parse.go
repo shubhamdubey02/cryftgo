@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/cryft-labs/cryftgo/codec"
+import "github.com/shubhamdubey02/cryftgo/codec"
 
 func Parse(c codec.Manager, b []byte) (Block, error) {
 	var blk Block

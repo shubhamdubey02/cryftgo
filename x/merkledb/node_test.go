@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
 )
 
 func Test_Node_Marshal(t *testing.T) {

@@ -6,13 +6,13 @@ package gkeystore
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/api/keystore"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/rpcdb"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/api/keystore"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/rpcdb"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/cryft-labs/cryftgo/proto/pb/keystore"
-	rpcdbpb "github.com/cryft-labs/cryftgo/proto/pb/rpcdb"
+	keystorepb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/keystore"
+	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
 )
 
 var _ keystorepb.KeystoreServer = (*Server)(nil)

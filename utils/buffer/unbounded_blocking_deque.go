@@ -6,7 +6,7 @@ package buffer
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils"
 )
 
 var _ BlockingDeque[int] = (*unboundedBlockingDeque[int])(nil)

@@ -8,17 +8,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/nftfx"
-	"github.com/cryft-labs/cryftgo/vms/propertyfx"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 )
 
 var (
@@ -375,7 +375,7 @@ func (b *builder) NewImportTx(
 	var (
 		addrs           = ops.Addresses(b.addrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		cryftAssetID     = b.context.CRYFTAssetID
+		cryftAssetID    = b.context.CRYFTAssetID
 		txFee           = b.context.BaseTxFee
 
 		importedInputs  = make([]*cryft.TransferableInput, 0, len(utxos))
@@ -424,8 +424,8 @@ func (b *builder) NewImportTx(
 	}
 
 	var (
-		inputs       []*cryft.TransferableInput
-		outputs      = make([]*cryft.TransferableOutput, 0, len(importedAmounts))
+		inputs        []*cryft.TransferableInput
+		outputs       = make([]*cryft.TransferableOutput, 0, len(importedAmounts))
 		importedCRYFT = importedAmounts[cryftAssetID]
 	)
 	if importedCRYFT > txFee {
@@ -639,7 +639,7 @@ func (b *builder) spend(
 		}
 	}
 
-	utils.Sort(inputs)                                    // sort inputs
+	utils.Sort(inputs)                                     // sort inputs
 	cryft.SortTransferableOutputs(outputs, Parser.Codec()) // sort the change outputs
 	return inputs, outputs, nil
 }

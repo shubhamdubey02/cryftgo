@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/indexer"
-	"github.com/cryft-labs/cryftgo/vms/proposervm/block"
-	"github.com/cryft-labs/cryftgo/wallet/chain/x/builder"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/indexer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/block"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
 )
 
 // This example program continuously polls for the next X-Chain block

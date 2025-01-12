@@ -3,7 +3,7 @@
 
 package common
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 // BootstrapTracker describes the standard interface for tracking the status of
 // a subnet bootstrapping

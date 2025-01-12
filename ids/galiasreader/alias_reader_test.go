@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
 
-	aliasreaderpb "github.com/cryft-labs/cryftgo/proto/pb/aliasreader"
+	aliasreaderpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/aliasreader"
 )
 
 func TestInterface(t *testing.T) {

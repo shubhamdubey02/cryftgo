@@ -3,7 +3,7 @@
 
 package sync
 
-import "github.com/cryft-labs/cryftgo/x/merkledb"
+import "github.com/shubhamdubey02/cryftgo/x/merkledb"
 
 type DB interface {
 	merkledb.Clearer

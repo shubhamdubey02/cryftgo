@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ Nnary = (*nnarySnowball)(nil)

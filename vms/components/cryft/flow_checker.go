@@ -6,9 +6,9 @@ package cryft
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 )
 
 var ErrInsufficientFunds = errors.New("insufficient funds")

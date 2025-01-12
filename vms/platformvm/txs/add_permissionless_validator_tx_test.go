@@ -11,21 +11,21 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/stakeable"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/vms/types"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/types"
 
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
 )
 
 func TestAddPermissionlessPrimaryValidator(t *testing.T) {
@@ -136,8 +136,8 @@ func TestAddPermissionlessPrimaryValidator(t *testing.T) {
 	cryft.SortTransferableOutputs(simpleAddPrimaryTx.StakeOuts, Codec)
 	utils.Sort(simpleAddPrimaryTx.Ins)
 	require.NoError(simpleAddPrimaryTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -435,8 +435,8 @@ func TestAddPermissionlessPrimaryValidator(t *testing.T) {
 		DelegationShares: reward.PercentDenominator,
 	}
 	require.NoError(complexAddPrimaryTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -822,8 +822,8 @@ func TestAddPermissionlessSubnetValidator(t *testing.T) {
 	cryft.SortTransferableOutputs(simpleAddSubnetTx.StakeOuts, Codec)
 	utils.Sort(simpleAddSubnetTx.Ins)
 	require.NoError(simpleAddSubnetTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -1122,8 +1122,8 @@ func TestAddPermissionlessSubnetValidator(t *testing.T) {
 		DelegationShares: reward.PercentDenominator,
 	}
 	require.NoError(complexAddSubnetTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 

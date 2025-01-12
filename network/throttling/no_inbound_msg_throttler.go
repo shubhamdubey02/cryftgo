@@ -6,7 +6,7 @@ package throttling
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ InboundMsgThrottler = (*noInboundMsgThrottler)(nil)

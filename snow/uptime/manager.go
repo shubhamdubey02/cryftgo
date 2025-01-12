@@ -6,10 +6,10 @@ package uptime
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 var _ Manager = (*manager)(nil)

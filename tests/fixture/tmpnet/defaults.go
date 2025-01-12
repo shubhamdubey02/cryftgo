@@ -6,9 +6,9 @@ package tmpnet
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs/executor"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/executor"
 )
 
 const (

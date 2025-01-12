@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/rpc"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/block"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/genesis"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
 )
 
 const defaultPollingInterval = 50 * time.Millisecond

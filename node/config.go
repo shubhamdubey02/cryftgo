@@ -7,23 +7,23 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api/server"
-	"github.com/cryft-labs/cryftgo/chains"
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/network"
-	"github.com/cryft-labs/cryftgo/snow/networking/benchlist"
-	"github.com/cryft-labs/cryftgo/snow/networking/router"
-	"github.com/cryft-labs/cryftgo/snow/networking/tracker"
-	"github.com/cryft-labs/cryftgo/subnets"
-	"github.com/cryft-labs/cryftgo/trace"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/profiler"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/timer"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs/fee"
+	"github.com/shubhamdubey02/cryftgo/api/server"
+	"github.com/shubhamdubey02/cryftgoftgo/chains"
+	"github.com/shubhamdubey02/cryftgoftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/network"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/benchlist"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/router"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgoftgo/subnets"
+	"github.com/shubhamdubey02/cryftgoftgo/trace"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/profiler"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/fee"
 )
 
 type APIIndexerConfig struct {
@@ -133,7 +133,7 @@ type Config struct {
 
 	// Genesis information
 	GenesisBytes []byte `json:"-"`
-	CryftAssetID  ids.ID `json:"cryftAssetID"`
+	CryftAssetID ids.ID `json:"cryftAssetID"`
 
 	// ID of the network this node should connect to
 	NetworkID uint32 `json:"networkID"`

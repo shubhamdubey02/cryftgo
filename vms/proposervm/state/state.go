@@ -6,8 +6,8 @@ package state
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/database/prefixdb"
-	"github.com/cryft-labs/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
 )
 
 var (

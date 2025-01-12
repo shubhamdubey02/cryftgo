@@ -6,8 +6,8 @@ package avalanche
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
 )
 
 // Vertex is a collection of multiple transactions tied to other vertices

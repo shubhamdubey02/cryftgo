@@ -9,7 +9,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

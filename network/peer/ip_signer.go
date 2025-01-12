@@ -7,9 +7,9 @@ import (
 	"crypto"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 // IPSigner will return a signedIP for the current value of our dynamic IP.

@@ -6,9 +6,9 @@ package router
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/message"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/message"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 var _ InboundHandler = InboundHandlerFunc(nil)

@@ -6,8 +6,8 @@ package common
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // SendConfig is used to specify who to send messages to over the p2p network.

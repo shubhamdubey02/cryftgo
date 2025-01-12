@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 func TestMakeKeys(t *testing.T) {

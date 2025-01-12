@@ -6,7 +6,7 @@ package bloom
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/utils/bloom"
 )
 
 const bytesPerHash = 8

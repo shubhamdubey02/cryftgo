@@ -3,7 +3,7 @@
 
 package benchlist
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 // Benchable is notified when a validator is benched or unbenched from a given chain
 type Benchable interface {

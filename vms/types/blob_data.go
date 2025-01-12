@@ -6,7 +6,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
 )
 
 // JSONByteSlice represents [[]byte] that is json marshalled to hex

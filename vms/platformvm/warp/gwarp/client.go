@@ -6,9 +6,9 @@ package gwarp
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/warp"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/warp"
 )
 
 var _ warp.Signer = (*Client)(nil)

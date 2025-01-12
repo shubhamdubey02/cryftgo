@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/tests"
-	"github.com/cryft-labs/cryftgo/tests/fixture"
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/tests"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

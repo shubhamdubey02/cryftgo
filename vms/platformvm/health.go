@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
 )
 
 func (vm *VM) HealthCheck(context.Context) (interface{}, error) {

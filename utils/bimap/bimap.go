@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils"
 )
 
 var (

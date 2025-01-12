@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/networking/tracker"
-	"github.com/cryft-labs/cryftgo/utils/math/meter"
-	"github.com/cryft-labs/cryftgo/utils/resource"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math/meter"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 func TestNewSystemThrottler(t *testing.T) {

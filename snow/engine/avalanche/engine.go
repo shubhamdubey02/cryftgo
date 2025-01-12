@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
 )
 
 var (

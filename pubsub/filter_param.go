@@ -6,8 +6,8 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/pubsub/bloom"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/pubsub/bloom"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 type FilterParam struct {

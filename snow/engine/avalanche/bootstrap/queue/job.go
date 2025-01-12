@@ -6,8 +6,8 @@ package queue
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // Job defines the interface required to be placed on the job queue.

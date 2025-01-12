@@ -7,14 +7,14 @@ package banff
 import (
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/tests"
-	"github.com/cryft-labs/cryftgo/tests/fixture/e2e"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/tests"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/e2e"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

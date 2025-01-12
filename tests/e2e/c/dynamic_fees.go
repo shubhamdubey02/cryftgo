@@ -14,10 +14,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/tests"
-	"github.com/cryft-labs/cryftgo/tests/fixture/e2e"
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/tests"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/e2e"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

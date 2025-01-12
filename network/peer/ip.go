@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/staking"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/staking"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 )
 
 var (

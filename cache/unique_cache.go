@@ -6,7 +6,7 @@ package cache
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
 )
 
 var _ Deduplicator[struct{}, Evictable[struct{}]] = (*EvictableLRU[struct{}, Evictable[struct{}]])(nil)

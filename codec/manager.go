@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 )
 
 const (

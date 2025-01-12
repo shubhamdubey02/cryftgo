@@ -11,15 +11,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/state"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs/fee"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/fee"
 )
 
 var (
@@ -463,7 +463,7 @@ func (e *StandardTxExecutor) TransformSubnetTx(tx *txs.TransformSubnetTx) error 
 		//            second entry.
 		map[ids.ID]uint64{
 			e.Ctx.CRYFTAssetID: fee,
-			tx.AssetID:        totalRewardAmount,
+			tx.AssetID:         totalRewardAmount,
 		},
 	); err != nil {
 		return err

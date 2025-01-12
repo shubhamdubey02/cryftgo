@@ -45,7 +45,7 @@ Currently there are no fees enforced in the XSVM.
 #### Install
 
 ```bash
-git clone https://github.com/cryft-labs/cryftgo.git;
+git clone https://github.com/shubhamdubey02/cryftgo.git;
 cd cryftgo;
 go install -v ./vms/example/xsvm/cmd/xsvm;
 ```
@@ -73,7 +73,7 @@ Flags:
 Use "xsvm [command] --help" for more information about a command.
 ```
 
-### [Golang SDK](https://github.com/cryft-labs/cryftgo/blob/master/vms/example/xsvm/client/client.go)
+### [Golang SDK](https://github.com/shubhamdubey02/cryftgo/blob/master/vms/example/xsvm/client/client.go)
 
 ```golang
 // Client defines xsvm client operations.
@@ -282,7 +282,7 @@ P-Chain.
 
 You can do this by following the [subnet tutorial] or by using the [subnet-cli].
 
-[teleporter]: https://github.com/cryft-labs/cryftgo/tree/master/vms/platformvm/teleporter
+[teleporter]: https://github.com/shubhamdubey02/cryftgo/tree/master/vms/platformvm/teleporter
 [subnet tutorial]: https://docs.cryft.network/build/tutorials/platform/subnets/create-a-subnet
 [subnet-cli]: https://github.com/ava-labs/subnet-cli
 [Coreth]: https://github.com/cryft-labs/coreth

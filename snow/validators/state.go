@@ -7,7 +7,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ State = (*lockedState)(nil)

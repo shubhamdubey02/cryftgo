@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/rpc/v2"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils"
 )
 
 type APIInterceptor interface {

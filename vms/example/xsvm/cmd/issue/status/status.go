@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
 )
 
 type TxIssuance struct {

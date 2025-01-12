@@ -4,8 +4,8 @@
 package execute
 
 import (
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/block"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
 )
 
 var _ tx.Visitor = (*TxExpectsContext)(nil)

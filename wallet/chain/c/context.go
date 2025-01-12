@@ -4,12 +4,12 @@
 package c
 
 import (
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
 
 	stdcontext "context"
 )
@@ -27,7 +27,7 @@ type Context interface {
 type context struct {
 	networkID    uint32
 	blockchainID ids.ID
-	cryftAssetID  ids.ID
+	cryftAssetID ids.ID
 }
 
 func NewContextFromURI(ctx stdcontext.Context, uri string) (Context, error) {
@@ -71,7 +71,7 @@ func NewContext(
 	return &context{
 		networkID:    networkID,
 		blockchainID: blockchainID,
-		cryftAssetID:  cryftAssetID,
+		cryftAssetID: cryftAssetID,
 	}
 }
 
@@ -91,12 +91,12 @@ func newSnowContext(c Context) (*snow.Context, error) {
 	chainID := c.BlockchainID()
 	lookup := ids.NewAliaser()
 	return &snow.Context{
-		NetworkID:   c.NetworkID(),
-		SubnetID:    constants.PrimaryNetworkID,
-		ChainID:     chainID,
-		CChainID:    chainID,
+		NetworkID:    c.NetworkID(),
+		SubnetID:     constants.PrimaryNetworkID,
+		ChainID:      chainID,
+		CChainID:     chainID,
 		CRYFTAssetID: c.CRYFTAssetID(),
-		Log:         logging.NoLog{},
-		BCLookup:    lookup,
+		Log:          logging.NoLog{},
+		BCLookup:     lookup,
 	}, lookup.Alias(chainID, Alias)
 }

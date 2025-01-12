@@ -6,7 +6,7 @@ package network
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 var DefaultConfig = Config{

@@ -4,8 +4,8 @@
 package proposer
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
 )
 
 var _ utils.Sortable[validatorData] = validatorData{}

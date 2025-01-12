@@ -87,7 +87,7 @@ linters-settings:
       packages:
         deny:
           - pkg: "container/list"
-            desc: github.com/cryft-labs/cryftgo/utils/linked should be used instead.
+            desc: github.com/shubhamdubey02/cryftgo/utils/linked should be used instead.
           - pkg: "github.com/golang/mock/gomock"
             desc: go.uber.org/mock/gomock should be used instead.
           - pkg: "github.com/stretchr/testify/assert"
@@ -115,7 +115,7 @@ linters-settings:
       - default
       - blank
       - dot
-      - prefix(github.com/cryft-labs/cryftgo)
+      - prefix(github.com/shubhamdubey02/cryftgo)
       - alias
     skip-generated: true
     custom-order: true
@@ -129,9 +129,9 @@ linters-settings:
     no-extra-aliases: false
     # List of aliases
     alias:
-      - pkg: github.com/cryft-labs/cryftgo/utils/math
+      - pkg: github.com/shubhamdubey02/cryftgo/utils/math
         alias: safemath
-      - pkg: github.com/cryft-labs/cryftgo/utils/json
+      - pkg: github.com/shubhamdubey02/cryftgo/utils/json
         alias: avajson
   revive:
     rules:

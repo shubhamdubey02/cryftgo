@@ -3,7 +3,7 @@
 
 package cache
 
-import "github.com/cryft-labs/cryftgo/utils"
+import "github.com/shubhamdubey02/cryftgo/utils"
 
 var _ Cacher[struct{}, struct{}] = (*Empty[struct{}, struct{}])(nil)
 

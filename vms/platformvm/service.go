@@ -15,32 +15,32 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/api"
-	"github.com/cryft-labs/cryftgo/cache"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/keystore"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/stakeable"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/state"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/status"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgoftgo/cache"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/keystore"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/status"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
-	platformapi "github.com/cryft-labs/cryftgo/vms/platformvm/api"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	platformapi "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/api"
 )
 
 const (
@@ -156,7 +156,7 @@ type GetBalanceResponse struct {
 	Unlockeds           map[ids.ID]avajson.Uint64 `json:"unlockeds"`
 	LockedStakeables    map[ids.ID]avajson.Uint64 `json:"lockedStakeables"`
 	LockedNotStakeables map[ids.ID]avajson.Uint64 `json:"lockedNotStakeables"`
-	UTXOIDs             []*cryft.UTXOID            `json:"utxoIDs"`
+	UTXOIDs             []*cryft.UTXOID           `json:"utxoIDs"`
 }
 
 // GetBalance gets the balance of an address

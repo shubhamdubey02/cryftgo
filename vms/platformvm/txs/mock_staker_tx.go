@@ -13,8 +13,8 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ids "github.com/cryft-labs/cryftgo/ids"
-	bls "github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	ids "github.com/shubhamdubey02/cryftgo/ids"
+	bls "github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
 	gomock "go.uber.org/mock/gomock"
 )
 

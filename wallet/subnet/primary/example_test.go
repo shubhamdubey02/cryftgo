@@ -8,16 +8,16 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 )
 
 func ExampleWallet() {
@@ -28,9 +28,9 @@ func ExampleWallet() {
 	// [LocalAPIURI] is hosting.
 	walletSyncStartTime := time.Now()
 	wallet, err := MakeWallet(ctx, &WalletConfig{
-		URI:          LocalAPIURI,
+		URI:           LocalAPIURI,
 		CRYFTKeychain: kc,
-		EthKeychain:  kc,
+		EthKeychain:   kc,
 	})
 	if err != nil {
 		log.Fatalf("failed to initialize wallet with: %s\n", err)

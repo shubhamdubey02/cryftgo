@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/cryft-labs/cryftgo/ids"
-	set "github.com/cryft-labs/cryftgo/utils/set"
+	ids "github.com/shubhamdubey02/cryftgo/ids"
+	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

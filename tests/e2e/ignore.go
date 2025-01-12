@@ -9,5 +9,5 @@ package e2e
 // ```
 // Failed to compile e2e:
 //
-// github.com/cryft-labs/cryftgo/tests/e2e: no non-test Go files in /path/to/cryftgo/tests/e2e
+// github.com/shubhamdubey02/cryftgo/tests/e2e: no non-test Go files in /path/to/cryftgo/tests/e2e
 // ```

@@ -10,10 +10,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/bloom"
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 func newTestIPTracker(t *testing.T) *ipTracker {

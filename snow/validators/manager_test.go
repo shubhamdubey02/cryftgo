@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 
-	safemath "github.com/cryft-labs/cryftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
 )
 
 var _ ManagerCallbackListener = (*managerCallbackListener)(nil)

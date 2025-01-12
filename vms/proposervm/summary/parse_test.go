@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/codec"
 )
 
 func TestParse(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/term"
 
-	"github.com/cryft-labs/cryftgo/app"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/app"
+	"github.com/shubhamdubey02/cryftgoftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 func main() {

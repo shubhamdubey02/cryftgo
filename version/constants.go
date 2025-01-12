@@ -9,8 +9,8 @@ import (
 
 	_ "embed"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
 )
 
 const (
@@ -72,56 +72,56 @@ var (
 
 	ApricotPhase1Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhase2Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhase3Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhase4Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
 	}
 	ApricotPhase4MinPChainHeight = map[uint32]uint64{
 		constants.MainnetID: 0,
-		constants.MustangID:    0,
+		constants.MustangID: 0,
 	}
 
 	ApricotPhase5Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2020, time.December, 5, 5, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhasePre6Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2022, time.September, 8, 20, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2022, time.September, 8, 20, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2022, time.September, 8, 20, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhase6Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2022, time.September, 8, 22, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2022, time.September, 8, 22, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2022, time.September, 8, 22, 0, 0, 0, time.UTC),
 	}
 
 	ApricotPhasePost6Times = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2022, time.September, 9, 3, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2022, time.September, 9, 3, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2022, time.September, 9, 3, 0, 0, 0, time.UTC),
 	}
 
 	BanffTimes = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2022, time.December, 19, 16, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2022, time.December, 12, 14, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2022, time.December, 12, 14, 0, 0, 0, time.UTC),
 	}
 
 	CortinaTimes = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2023, time.August, 17, 10, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2023, time.June, 28, 15, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2023, time.June, 28, 15, 0, 0, 0, time.UTC),
 	}
 	CortinaXChainStopVertexID = map[uint32]ids.ID{
 		// The mainnet stop vertex is well known. It can be verified on any
@@ -138,12 +138,12 @@ var (
 
 	DurangoTimes = map[uint32]time.Time{
 		constants.MainnetID: time.Date(2024, time.May, 6, 8, 0, 0, 0, time.UTC),
-		constants.MustangID:   time.Date(2024, time.April, 4, 0, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(2024, time.April, 4, 0, 0, 0, 0, time.UTC),
 	}
 
 	EUpgradeTimes = map[uint32]time.Time{
 		constants.MainnetID: time.Date(10000, time.December, 1, 0, 0, 0, 0, time.UTC),
-		constants.MustangID:    time.Date(10000, time.December, 1, 0, 0, 0, 0, time.UTC),
+		constants.MustangID: time.Date(10000, time.December, 1, 0, 0, 0, 0, time.UTC),
 	}
 )
 

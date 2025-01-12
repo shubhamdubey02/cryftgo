@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
 )
 
 // The Node type is defined in this file node_config.go

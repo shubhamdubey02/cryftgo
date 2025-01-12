@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	httppb "github.com/cryft-labs/cryftgo/proto/pb/http"
+	httppb "github.com/shubhamdubey02/cryftgo/proto/pb/http"
 )
 
 func TestConvertWriteResponse(t *testing.T) {

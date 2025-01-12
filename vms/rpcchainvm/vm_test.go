@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime/subprocess"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime/subprocess"
 
-	vmpb "github.com/cryft-labs/cryftgo/proto/pb/vm"
+	vmpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm"
 )
 
 const (

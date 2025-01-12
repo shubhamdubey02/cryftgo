@@ -3,7 +3,7 @@
 
 package merkledb
 
-import "github.com/cryft-labs/cryftgo/database"
+import "github.com/shubhamdubey02/cryftgo/database"
 
 var _ database.Batch = (*batch)(nil)
 

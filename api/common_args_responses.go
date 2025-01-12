@@ -6,10 +6,10 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

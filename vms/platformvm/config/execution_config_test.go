@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/network"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/network"
 )
 
 func TestExecutionConfigUnmarshal(t *testing.T) {

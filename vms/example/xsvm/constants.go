@@ -4,8 +4,8 @@
 package xsvm
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 const Name = "xsvm"

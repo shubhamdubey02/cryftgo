@@ -4,9 +4,9 @@
 package snowball
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/bag"
-	"github.com/cryft-labs/cryftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
 )
 
 type newConsensusFunc func(factory Factory, params Parameters, choice ids.ID) Consensus

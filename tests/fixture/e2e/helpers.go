@@ -17,12 +17,12 @@ import (
 	"github.com/cryft-labs/coreth/interfaces"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/tests"
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/tests"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )
@@ -57,9 +57,9 @@ const (
 func NewWallet(keychain *secp256k1fx.Keychain, nodeURI tmpnet.NodeURI) primary.Wallet {
 	tests.Outf("{{blue}} initializing a new wallet for node %s with URI: %s {{/}}\n", nodeURI.NodeID, nodeURI.URI)
 	baseWallet, err := primary.MakeWallet(DefaultContext(), &primary.WalletConfig{
-		URI:          nodeURI.URI,
+		URI:           nodeURI.URI,
 		CRYFTKeychain: keychain,
-		EthKeychain:  keychain,
+		EthKeychain:   keychain,
 	})
 	require.NoError(ginkgo.GinkgoT(), err)
 	return primary.NewWalletWithOptions(

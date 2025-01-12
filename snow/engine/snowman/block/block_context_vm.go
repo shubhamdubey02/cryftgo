@@ -6,7 +6,7 @@ package block
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
 )
 
 // Context defines the block context that will be optionally provided by the

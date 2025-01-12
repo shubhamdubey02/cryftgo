@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/codec/linearcodec"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
 )
 
 func TestTransferInputAmount(t *testing.T) {

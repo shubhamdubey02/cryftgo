@@ -13,13 +13,13 @@ import (
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/x/merkledb"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/x/merkledb"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
 )
 
 func Test_Server_GetRangeProof(t *testing.T) {

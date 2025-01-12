@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
 )
 
 var _ UnsignedTx = (*CreateSubnetTx)(nil)

@@ -4,10 +4,10 @@
 package atomic
 
 import (
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/versiondb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
 )
 
 var _ SharedMemory = (*sharedMemory)(nil)

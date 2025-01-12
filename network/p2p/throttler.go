@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
 )
 
 var _ Throttler = (*SlidingWindowThrottler)(nil)

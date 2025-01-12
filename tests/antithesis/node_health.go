@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api/health"
+	"github.com/shubhamdubey02/cryftgo/api/health"
 )
 
 // Waits for the nodes at the provided URIs to report healthy.

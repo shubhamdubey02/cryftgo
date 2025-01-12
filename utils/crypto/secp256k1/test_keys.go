@@ -3,7 +3,7 @@
 
 package secp256k1
 
-import "github.com/cryft-labs/cryftgo/utils/cb58"
+import "github.com/shubhamdubey02/cryftgo/utils/cb58"
 
 func TestKeys() []*PrivateKey {
 	var (

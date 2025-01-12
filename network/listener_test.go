@@ -6,7 +6,7 @@ package network
 import (
 	"net"
 
-	"github.com/cryft-labs/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 var _ net.Listener = (*testListener)(nil)

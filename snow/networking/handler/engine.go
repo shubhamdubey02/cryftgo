@@ -4,9 +4,9 @@
 package handler
 
 import (
-	"github.com/cryft-labs/cryftgo/proto/pb/p2p"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
 )
 
 // Engine is a wrapper around a consensus engine's components.

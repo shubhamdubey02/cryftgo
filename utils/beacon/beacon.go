@@ -4,8 +4,8 @@
 package beacon
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
 )
 
 var _ Beacon = (*beacon)(nil)

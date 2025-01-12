@@ -6,7 +6,7 @@ package payload
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var _ Payload = (*Hash)(nil)

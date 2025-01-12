@@ -4,7 +4,7 @@ package rpcdb;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/cryft-labs/cryftgo/proto/pb/rpcdb";
+option go_package = "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb";
 
 service Database {
   rpc Has(HasRequest) returns (HasResponse);

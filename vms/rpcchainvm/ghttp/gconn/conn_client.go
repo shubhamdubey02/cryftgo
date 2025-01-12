@@ -12,9 +12,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
-	connpb "github.com/cryft-labs/cryftgo/proto/pb/net/conn"
+	connpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/net/conn"
 )
 
 var _ net.Conn = (*Client)(nil)

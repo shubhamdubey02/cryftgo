@@ -9,15 +9,16 @@ import (
 
 	"github.com/cryft-labs/coreth/plugin/evm"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 
 	stdcontext "context"
+
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
 
@@ -95,8 +96,8 @@ type BuilderBackend interface {
 
 type builder struct {
 	cryftAddrs set.Set[ids.ShortID]
-	ethAddrs  set.Set[ethcommon.Address]
-	backend   BuilderBackend
+	ethAddrs   set.Set[ethcommon.Address]
+	backend    BuilderBackend
 }
 
 // NewBuilder returns a new transaction builder.
@@ -114,8 +115,8 @@ func NewBuilder(
 ) Builder {
 	return &builder{
 		cryftAddrs: cryftAddrs,
-		ethAddrs:  ethAddrs,
-		backend:   backend,
+		ethAddrs:   ethAddrs,
+		backend:    backend,
 	}
 }
 
@@ -152,7 +153,7 @@ func (b *builder) GetImportableBalance(
 	var (
 		addrs           = ops.Addresses(b.cryftAddrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		cryftAssetID     = b.backend.CRYFTAssetID()
+		cryftAssetID    = b.backend.CRYFTAssetID()
 		balance         uint64
 	)
 	for _, utxo := range utxos {
@@ -186,7 +187,7 @@ func (b *builder) NewImportTx(
 	var (
 		addrs           = ops.Addresses(b.cryftAddrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		cryftAssetID     = b.backend.CRYFTAssetID()
+		cryftAssetID    = b.backend.CRYFTAssetID()
 
 		importedInputs = make([]*cryft.TransferableInput, 0, len(utxos))
 		importedAmount uint64
@@ -260,7 +261,7 @@ func (b *builder) NewExportTx(
 	options ...common.Option,
 ) (*evm.UnsignedExportTx, error) {
 	var (
-		cryftAssetID     = b.backend.CRYFTAssetID()
+		cryftAssetID    = b.backend.CRYFTAssetID()
 		exportedOutputs = make([]*cryft.TransferableOutput, len(outputs))
 		exportedAmount  uint64
 	)

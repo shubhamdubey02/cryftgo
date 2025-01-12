@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
 )
 
 const (

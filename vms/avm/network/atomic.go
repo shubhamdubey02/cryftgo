@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
 )
 
 var _ Atomic = (*atomic)(nil)

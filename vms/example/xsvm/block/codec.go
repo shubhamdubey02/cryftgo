@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
+import "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
 
 const CodecVersion = tx.CodecVersion
 

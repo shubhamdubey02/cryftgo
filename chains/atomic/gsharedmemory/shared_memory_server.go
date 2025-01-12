@@ -6,11 +6,11 @@ package gsharedmemory
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 
-	sharedmemorypb "github.com/cryft-labs/cryftgo/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sharedmemory"
 )
 
 var _ sharedmemorypb.SharedMemoryServer = (*Server)(nil)

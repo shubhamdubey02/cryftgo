@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/corruptabledb"
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/corruptabledb"
+	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
 
-	rpcdbpb "github.com/cryft-labs/cryftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
 )
 
 type testDatabase struct {

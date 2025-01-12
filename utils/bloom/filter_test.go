@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 func TestNewErrors(t *testing.T) {

@@ -3,7 +3,7 @@
 
 package gossip
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 // Gossipable is an item that can be gossiped across the network
 type Gossipable interface {

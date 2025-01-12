@@ -6,7 +6,7 @@ package validators
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // SubnetConnector represents a handler that is called when a connection is

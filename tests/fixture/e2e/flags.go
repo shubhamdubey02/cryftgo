@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
 )
 
 type FlagVars struct {
-	cryftGoExecPath  string
+	cryftGoExecPath      string
 	pluginDir            string
 	networkDir           string
 	reuseNetwork         bool

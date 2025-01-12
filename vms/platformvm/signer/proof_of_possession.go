@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
 )
 
 var errUnknownEncoding = errors.New("unknown encoding")

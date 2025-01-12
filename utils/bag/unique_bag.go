@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // Maps a key to a bitset.

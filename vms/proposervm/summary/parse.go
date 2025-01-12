@@ -6,7 +6,7 @@ package summary
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 func Parse(bytes []byte) (StateSummary, error) {

@@ -3,7 +3,7 @@
 
 package propertyfx
 
-import "github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+import "github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 
 type Credential struct {
 	secp256k1fx.Credential `serialize:"true"`

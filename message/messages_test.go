@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/proto/pb/p2p"
-	"github.com/cryft-labs/cryftgo/staking"
-	"github.com/cryft-labs/cryftgo/utils/compression"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/staking"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 func TestMessage(t *testing.T) {

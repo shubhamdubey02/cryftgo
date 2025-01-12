@@ -6,20 +6,20 @@ package primary
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/keychain"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/wallet/chain/c"
-	"github.com/cryft-labs/cryftgo/wallet/chain/p"
-	"github.com/cryft-labs/cryftgo/wallet/chain/x"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/keychain"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/c"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 
-	pbuilder "github.com/cryft-labs/cryftgo/wallet/chain/p/builder"
-	psigner "github.com/cryft-labs/cryftgo/wallet/chain/p/signer"
-	xbuilder "github.com/cryft-labs/cryftgo/wallet/chain/x/builder"
-	xsigner "github.com/cryft-labs/cryftgo/wallet/chain/x/signer"
+	pbuilder "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
+	psigner "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/signer"
+	xbuilder "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
+	xsigner "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/signer"
 )
 
 var _ Wallet = (*wallet)(nil)
@@ -72,7 +72,7 @@ type WalletConfig struct {
 	URI string // required
 	// Keys to use for signing all transactions.
 	CRYFTKeychain keychain.Keychain // required
-	EthKeychain  c.EthKeychain     // required
+	EthKeychain   c.EthKeychain     // required
 	// Set of P-chain transactions that the wallet should know about to be able
 	// to generate transactions.
 	PChainTxs map[ids.ID]*txs.Tx // optional

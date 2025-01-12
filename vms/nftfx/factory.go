@@ -4,8 +4,8 @@
 package nftfx
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/fx"
 )
 
 const Name = "nftfx"

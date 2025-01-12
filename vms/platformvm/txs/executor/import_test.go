@@ -10,15 +10,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/database/prefixdb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/state"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/chain/p/builder"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
 )
 
 var fundedSharedMemoryCalls byte
@@ -101,7 +101,7 @@ func TestNewImportTx(t *testing.T) {
 				env.ctx.XChainID,
 				map[ids.ID]uint64{
 					env.ctx.CRYFTAssetID: env.config.StaticFeeConfig.TxFee,
-					customAssetID:       1,
+					customAssetID:        1,
 				},
 				randSrc,
 			),

@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 func NewCmd(path string, args ...string) *exec.Cmd {

@@ -3,7 +3,7 @@
 
 package summary
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 var _ StateSummary = (*stateSummary)(nil)
 

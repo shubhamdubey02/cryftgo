@@ -4,9 +4,9 @@
 package rpcdb
 
 import (
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 
-	rpcdbpb "github.com/cryft-labs/cryftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
 )
 
 var (

@@ -3,7 +3,7 @@
 
 package tx
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 var _ Unsigned = (*Transfer)(nil)
 

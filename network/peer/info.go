@@ -6,9 +6,9 @@ package peer
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/json"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 type Info struct {

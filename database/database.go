@@ -10,7 +10,7 @@ package database
 import (
 	"io"
 
-	"github.com/cryft-labs/cryftgo/api/health"
+	"github.com/shubhamdubey02/cryftgo/api/health"
 )
 
 // KeyValueReader wraps the Has and Get method of a backing data store.

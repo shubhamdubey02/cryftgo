@@ -4,11 +4,11 @@
 package execute
 
 import (
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/block"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/genesis"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/state"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/state"
 )
 
 func Genesis(db database.KeyValueReaderWriterDeleter, chainID ids.ID, g *genesis.Genesis) error {

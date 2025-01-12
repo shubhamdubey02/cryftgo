@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gonum.org/v1/gonum/mathext/prng"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowball"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman/snowmantest"
-	"github.com/cryft-labs/cryftgo/snow/snowtest"
-	"github.com/cryft-labs/cryftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman/snowmantest"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/snowtest"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
 )
 
 type testFunc func(*testing.T, Factory)

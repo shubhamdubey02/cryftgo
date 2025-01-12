@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/api"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/api"
 )
 
 func Command() *cobra.Command {

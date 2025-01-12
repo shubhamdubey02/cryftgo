@@ -16,10 +16,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/chains"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowball"
-	"github.com/cryft-labs/cryftgo/subnets"
+	"github.com/shubhamdubey02/cryftgo/chains"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgoftgo/subnets"
 )
 
 const chainConfigFilenameExtention = ".ex"

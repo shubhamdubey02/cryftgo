@@ -4,7 +4,7 @@ package validatorstate;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/cryft-labs/cryftgo/proto/pb/validatorstate";
+option go_package = "github.com/shubhamdubey02/cryftgo/proto/pb/validatorstate";
 
 service ValidatorState {
   // GetMinimumHeight returns the minimum height of the blocks in the optimal

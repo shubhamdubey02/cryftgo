@@ -6,9 +6,9 @@ package tx
 import (
 	"math"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/codec/linearcodec"
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
 )
 
 const CodecVersion = 0

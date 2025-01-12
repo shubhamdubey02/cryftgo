@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 type service struct {

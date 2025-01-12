@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/thepudds/fzgen/fuzzer"
 
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 )
 
 func FuzzMarshalDiffKey(f *testing.F) {

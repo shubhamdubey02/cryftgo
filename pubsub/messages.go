@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/cryft-labs/cryftgo/api"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 // NewBloom command for a new bloom filter

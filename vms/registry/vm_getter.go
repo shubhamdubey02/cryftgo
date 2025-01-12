@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/filesystem"
-	"github.com/cryft-labs/cryftgo/utils/resource"
-	"github.com/cryft-labs/cryftgo/vms"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/filesystem"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgoftgo/vms"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
 )
 
 var (

@@ -6,9 +6,9 @@ package gossip
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/proto/pb/sdk"
-	"github.com/cryft-labs/cryftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/sdk"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
 )
 
 func MarshalAppRequest(filter, salt []byte) ([]byte, error) {

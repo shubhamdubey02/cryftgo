@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
 )
 
 var (
@@ -19,7 +19,7 @@ var (
 
 	errCantTransformPrimaryNetwork       = errors.New("cannot transform primary network")
 	errEmptyAssetID                      = errors.New("empty asset ID is not valid")
-	errAssetIDCantBeCRYFT                 = errors.New("asset ID can't be CRYFT")
+	errAssetIDCantBeCRYFT                = errors.New("asset ID can't be CRYFT")
 	errInitialSupplyZero                 = errors.New("initial supply must be non-0")
 	errInitialSupplyGreaterThanMaxSupply = errors.New("initial supply can't be greater than maximum supply")
 	errMinConsumptionRateTooLarge        = errors.New("min consumption rate must be less than or equal to max consumption rate")

@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/indexer"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/indexer"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
 
-	platformvmblock "github.com/cryft-labs/cryftgo/vms/platformvm/block"
-	proposervmblock "github.com/cryft-labs/cryftgo/vms/proposervm/block"
+	platformvmblock "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/block"
+	proposervmblock "github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/block"
 )
 
 // This example program continuously polls for the next P-Chain block

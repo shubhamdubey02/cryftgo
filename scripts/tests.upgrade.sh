@@ -30,13 +30,13 @@ CRYFTGO_PATH="$(realpath "${CRYFTGO_PATH:-./build/cryftgo}")"
 
 #################################
 # download cryftgo
-# https://github.com/cryft-labs/cryftgo/releases
+# https://github.com/shubhamdubey02/cryftgo/releases
 GOARCH=$(go env GOARCH)
 GOOS=$(go env GOOS)
-DOWNLOAD_URL=https://github.com/cryft-labs/cryftgo/releases/download/v${VERSION}/cryftgo-linux-${GOARCH}-v${VERSION}.tar.gz
+DOWNLOAD_URL=https://github.com/shubhamdubey02/cryftgo/releases/download/v${VERSION}/cryftgo-linux-${GOARCH}-v${VERSION}.tar.gz
 DOWNLOAD_PATH=/tmp/cryftgo.tar.gz
 if [[ ${GOOS} == "darwin" ]]; then
-  DOWNLOAD_URL=https://github.com/cryft-labs/cryftgo/releases/download/v${VERSION}/cryftgo-macos-v${VERSION}.zip
+  DOWNLOAD_URL=https://github.com/shubhamdubey02/cryftgo/releases/download/v${VERSION}/cryftgo-macos-v${VERSION}.zip
   DOWNLOAD_PATH=/tmp/cryftgo.zip
 fi
 

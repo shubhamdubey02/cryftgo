@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 // Test that canceling a context passed into Dial results

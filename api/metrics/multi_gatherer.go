@@ -12,7 +12,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/utils/metric"
+	"github.com/shubhamdubey02/cryftgo/utils/metric"
 
 	dto "github.com/prometheus/client_model/go"
 )

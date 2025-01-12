@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
 )
 
 var (

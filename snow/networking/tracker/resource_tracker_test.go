@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/math/meter"
-	"github.com/cryft-labs/cryftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math/meter"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
 )
 
 func TestNewCPUTracker(t *testing.T) {

@@ -3,7 +3,7 @@
 
 package merkledb
 
-import "github.com/cryft-labs/cryftgo/trace"
+import "github.com/shubhamdubey02/cryftgo/trace"
 
 const (
 	DebugTrace TraceLevel = iota - 1

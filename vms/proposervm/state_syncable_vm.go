@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
-	"github.com/cryft-labs/cryftgo/vms/proposervm/summary"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/summary"
 )
 
 func (vm *VM) StateSyncEnabled(ctx context.Context) (bool, error) {

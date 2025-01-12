@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/linked"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 )
 
 var errEmptyCacheTooLarge = errors.New("cache is empty yet still too large")

@@ -6,7 +6,7 @@ package executor
 import (
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/vms/platformvm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/block"
 )
 
 var _ block.Visitor = (*rejector)(nil)

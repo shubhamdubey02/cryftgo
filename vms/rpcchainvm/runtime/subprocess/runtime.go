@@ -15,12 +15,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/gruntime"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/gruntime"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/vm/runtime"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm/runtime"
 )
 
 type Config struct {

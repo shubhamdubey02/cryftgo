@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
 )
 
 var _ Block = (*StandardBlock)(nil)

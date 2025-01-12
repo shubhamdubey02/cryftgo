@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
 )
 
 // InitNodeStakingKeyPair generates a self-signed TLS key/cert pair to use in

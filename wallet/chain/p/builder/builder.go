@@ -9,18 +9,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/math"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/stakeable"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 )
 
 var (
@@ -599,7 +599,7 @@ func (b *builder) NewImportTx(
 	var (
 		addrs           = ops.Addresses(b.addrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		cryftAssetID     = b.context.CRYFTAssetID
+		cryftAssetID    = b.context.CRYFTAssetID
 		txFee           = b.context.BaseTxFee
 
 		importedInputs  = make([]*cryft.TransferableInput, 0, len(utxos))
@@ -646,8 +646,8 @@ func (b *builder) NewImportTx(
 	}
 
 	var (
-		inputs       []*cryft.TransferableInput
-		outputs      = make([]*cryft.TransferableOutput, 0, len(importedAmounts))
+		inputs        []*cryft.TransferableInput
+		outputs       = make([]*cryft.TransferableOutput, 0, len(importedAmounts))
 		importedCRYFT = importedAmounts[cryftAssetID]
 	)
 	if importedCRYFT > txFee {
@@ -750,7 +750,7 @@ func (b *builder) NewTransformSubnetTx(
 ) (*txs.TransformSubnetTx, error) {
 	toBurn := map[ids.ID]uint64{
 		b.context.CRYFTAssetID: b.context.TransformSubnetTxFee,
-		assetID:               maxSupply - initialSupply,
+		assetID:                maxSupply - initialSupply,
 	}
 	toStake := map[ids.ID]uint64{}
 	ops := common.NewOptions(options)
@@ -1153,7 +1153,7 @@ func (b *builder) spend(
 		}
 	}
 
-	utils.Sort(inputs)                                     // sort inputs
+	utils.Sort(inputs)                                      // sort inputs
 	cryft.SortTransferableOutputs(changeOutputs, txs.Codec) // sort the change outputs
 	cryft.SortTransferableOutputs(stakeOutputs, txs.Codec)  // sort stake outputs
 	return inputs, changeOutputs, stakeOutputs, nil

@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/version"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm"
+	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm"
 )
 
 const format = `%s:

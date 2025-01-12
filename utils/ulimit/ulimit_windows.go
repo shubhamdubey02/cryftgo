@@ -6,7 +6,7 @@
 
 package ulimit
 
-import "github.com/cryft-labs/cryftgo/utils/logging"
+import "github.com/shubhamdubey02/cryftgo/utils/logging"
 
 const DefaultFDLimit = 16384
 

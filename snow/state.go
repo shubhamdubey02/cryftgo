@@ -6,7 +6,7 @@ package snow
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
 )
 
 const (

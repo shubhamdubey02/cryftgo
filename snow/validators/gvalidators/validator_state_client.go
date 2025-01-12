@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/validatorstate"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/validatorstate"
 )
 
 var (

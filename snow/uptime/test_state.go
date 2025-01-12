@@ -6,8 +6,8 @@ package uptime
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 )
 
 var _ State = (*TestState)(nil)

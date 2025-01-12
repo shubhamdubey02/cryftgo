@@ -4,7 +4,7 @@ package sync;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/cryft-labs/cryftgo/proto/pb/sync";
+option go_package = "github.com/shubhamdubey02/cryftgo/proto/pb/sync";
 
 // Request represents a request for information during syncing.
 message Request {

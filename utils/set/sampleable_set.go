@@ -8,11 +8,11 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/sampler"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 var _ json.Marshaler = (*Set[int])(nil)

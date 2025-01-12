@@ -8,10 +8,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
 
-	txmempool "github.com/cryft-labs/cryftgo/vms/txs/mempool"
+	txmempool "github.com/shubhamdubey02/cryftgoftgo/vms/txs/mempool"
 )
 
 var (

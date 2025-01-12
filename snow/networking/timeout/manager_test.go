@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/networking/benchlist"
-	"github.com/cryft-labs/cryftgo/utils/timer"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/benchlist"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer"
 )
 
 func TestManagerFire(t *testing.T) {

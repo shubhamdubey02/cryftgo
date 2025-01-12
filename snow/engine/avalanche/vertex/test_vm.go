@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowstorm"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
 )
 
 var (

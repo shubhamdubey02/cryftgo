@@ -6,7 +6,7 @@ package p2p
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // NodeSampler samples nodes in network

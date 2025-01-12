@@ -15,7 +15,7 @@ import (
 
 	"golang.org/x/crypto/cryptobyte"
 
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 )

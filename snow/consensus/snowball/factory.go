@@ -3,7 +3,7 @@
 
 package snowball
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 var (
 	SnowballFactory  Factory = snowballFactory{}

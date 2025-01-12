@@ -6,9 +6,9 @@ package block
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
 )
 
 // ChainVM defines the required functionality of a Snowman VM.

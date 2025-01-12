@@ -14,15 +14,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 const cliVersion = "0.0.1"
 
 var (
-	errCryftGoRequired = fmt.Errorf("--cryftgo-path or %s are required", tmpnet.CryftGoPathEnvName)
-	errNetworkDirRequired  = fmt.Errorf("--network-dir or %s are required", tmpnet.NetworkDirEnvName)
+	errCryftGoRequired    = fmt.Errorf("--cryftgo-path or %s are required", tmpnet.CryftGoPathEnvName)
+	errNetworkDirRequired = fmt.Errorf("--network-dir or %s are required", tmpnet.NetworkDirEnvName)
 )
 
 func main() {
@@ -48,11 +48,11 @@ func main() {
 	rootCmd.AddCommand(versionCmd)
 
 	var (
-		rootDir         string
-		networkOwner    string
-		cryftGoPath string
-		pluginDir       string
-		nodeCount       uint8
+		rootDir      string
+		networkOwner string
+		cryftGoPath  string
+		pluginDir    string
+		nodeCount    uint8
 	)
 	startNetworkCmd := &cobra.Command{
 		Use:   "start-network",

@@ -11,9 +11,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cryft-labs/cryftgo/network/throttling"
-	"github.com/cryft-labs/cryftgo/utils/ips"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/network/throttling"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 var _ Dialer = (*dialer)(nil)

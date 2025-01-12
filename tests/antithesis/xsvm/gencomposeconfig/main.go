@@ -8,10 +8,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/tests/antithesis"
-	"github.com/cryft-labs/cryftgo/tests/fixture/subnet"
-	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/antithesis"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/subnet"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-xsvm"

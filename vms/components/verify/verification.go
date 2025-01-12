@@ -3,7 +3,7 @@
 
 package verify
 
-import "github.com/cryft-labs/cryftgo/snow"
+import "github.com/shubhamdubey02/cryftgo/snow"
 
 type Verifiable interface {
 	Verify() error

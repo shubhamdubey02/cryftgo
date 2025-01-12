@@ -6,8 +6,8 @@ package warp
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
 )
 
 var (

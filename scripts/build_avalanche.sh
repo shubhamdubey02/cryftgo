@@ -29,4 +29,4 @@ source "$AVALANCHE_PATH"/scripts/constants.sh
 
 build_args="$race"
 echo "Building CryftGo..."
-go build $build_args -ldflags "-X github.com/cryft-labs/cryftgo/version.GitCommit=$git_commit $static_ld_flags" -o "$cryftgo_path" "$AVALANCHE_PATH/main/"*.go
+go build $build_args -ldflags "-X github.com/shubhamdubey02/cryftgo/version.GitCommit=$git_commit $static_ld_flags" -o "$cryftgo_path" "$AVALANCHE_PATH/main/"*.go

@@ -8,13 +8,13 @@ import (
 	"log"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/wallet/chain/p"
-	"github.com/cryft-labs/cryftgo/wallet/chain/p/builder"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 )
 
 func main() {

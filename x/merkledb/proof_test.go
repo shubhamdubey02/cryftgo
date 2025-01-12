@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
-	"github.com/cryft-labs/cryftgo/utils/maybe"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
 )
 
 func Test_Proof_Empty(t *testing.T) {

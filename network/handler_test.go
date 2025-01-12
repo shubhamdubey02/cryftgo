@@ -4,9 +4,9 @@
 package network
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/networking/router"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/router"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 var _ router.ExternalHandler = (*testHandler)(nil)

@@ -13,11 +13,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
 
-	httppb "github.com/cryft-labs/cryftgo/proto/pb/http"
-	responsewriterpb "github.com/cryft-labs/cryftgo/proto/pb/http/responsewriter"
+	httppb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/http"
+	responsewriterpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/http/responsewriter"
 )
 
 var (

@@ -4,10 +4,10 @@
 package builder
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
 )
 
 const Alias = "X"
@@ -15,7 +15,7 @@ const Alias = "X"
 type Context struct {
 	NetworkID        uint32
 	BlockchainID     ids.ID
-	CRYFTAssetID      ids.ID
+	CRYFTAssetID     ids.ID
 	BaseTxFee        uint64
 	CreateAssetTxFee uint64
 }
@@ -27,12 +27,12 @@ func NewSnowContext(
 ) (*snow.Context, error) {
 	lookup := ids.NewAliaser()
 	return &snow.Context{
-		NetworkID:   networkID,
-		SubnetID:    constants.PrimaryNetworkID,
-		ChainID:     blockchainID,
-		XChainID:    blockchainID,
+		NetworkID:    networkID,
+		SubnetID:     constants.PrimaryNetworkID,
+		ChainID:      blockchainID,
+		XChainID:     blockchainID,
 		CRYFTAssetID: cryftAssetID,
-		Log:         logging.NoLog{},
-		BCLookup:    lookup,
+		Log:          logging.NoLog{},
+		BCLookup:     lookup,
 	}, lookup.Alias(blockchainID, Alias)
 }

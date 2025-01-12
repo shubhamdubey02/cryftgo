@@ -6,8 +6,8 @@ package merkledb
 import (
 	"slices"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
 )
 
 // Representation of a node stored in the database.

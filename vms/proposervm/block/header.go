@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 type Header interface {
 	ChainID() ids.ID

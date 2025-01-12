@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 
-	xsgenesis "github.com/cryft-labs/cryftgo/vms/example/xsvm/genesis"
+	xsgenesis "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
 )
 
 const (

@@ -3,7 +3,7 @@
 
 package txs
 
-import "github.com/cryft-labs/cryftgo/vms/components/cryft"
+import "github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 
 var _ Visitor = (*utxoGetter)(nil)
 

@@ -6,12 +6,12 @@ package admin
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/api"
-	"github.com/cryft-labs/cryftgo/database/rpcdb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgoftgo/database/rpcdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

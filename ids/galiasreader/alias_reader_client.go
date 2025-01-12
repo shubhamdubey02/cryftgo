@@ -6,9 +6,9 @@ package galiasreader
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
-	aliasreaderpb "github.com/cryft-labs/cryftgo/proto/pb/aliasreader"
+	aliasreaderpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/aliasreader"
 )
 
 var _ ids.AliaserReader = (*Client)(nil)

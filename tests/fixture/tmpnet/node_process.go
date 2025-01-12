@@ -19,10 +19,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/api/health"
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/node"
-	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/api/health"
+	"github.com/shubhamdubey02/cryftgoftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/node"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
 )
 
 const (

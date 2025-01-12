@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/codec/reflectcodec"
-	"github.com/cryft-labs/cryftgo/utils/bimap"
-	"github.com/cryft-labs/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/codec/reflectcodec"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/bimap"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
 )
 
 var (

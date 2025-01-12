@@ -6,7 +6,7 @@ package bloom
 import (
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 type mapFilter struct {

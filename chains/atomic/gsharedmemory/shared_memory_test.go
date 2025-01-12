@@ -9,14 +9,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/chains/atomic"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/database/prefixdb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/chains/atomic"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
 
-	sharedmemorypb "github.com/cryft-labs/cryftgo/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sharedmemory"
 )
 
 func TestInterface(t *testing.T) {

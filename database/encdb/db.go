@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
 )
 
 var (

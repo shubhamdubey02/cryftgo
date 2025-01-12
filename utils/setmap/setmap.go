@@ -4,8 +4,8 @@
 package setmap
 
 import (
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 type Entry[K any, V comparable] struct {

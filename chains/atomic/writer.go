@@ -3,7 +3,7 @@
 
 package atomic
 
-import "github.com/cryft-labs/cryftgo/database"
+import "github.com/shubhamdubey02/cryftgo/database"
 
 // WriteAll writes all of the batches to the underlying database of baseBatch.
 // Assumes all batches have the same underlying database.

@@ -7,10 +7,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cryft-labs/cryftgo/api/health"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/api/health"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

@@ -6,8 +6,8 @@ package chain
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/chain/create"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/chain/genesis"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/chain/create"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/chain/genesis"
 )
 
 func Command() *cobra.Command {

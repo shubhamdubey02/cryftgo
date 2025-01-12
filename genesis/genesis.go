@@ -8,23 +8,23 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/json"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/avm"
-	"github.com/cryft-labs/cryftgo/vms/avm/fxs"
-	"github.com/cryft-labs/cryftgo/vms/nftfx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/api"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/genesis"
-	"github.com/cryft-labs/cryftgo/vms/propertyfx"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/api"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 
-	xchaintxs "github.com/cryft-labs/cryftgo/vms/avm/txs"
-	pchaintxs "github.com/cryft-labs/cryftgo/vms/platformvm/txs"
+	xchaintxs "github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	pchaintxs "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
 )
 
 const (
@@ -346,7 +346,7 @@ func FromConfig(config *Config) ([]byte, ids.ID, error) {
 
 	// Specify the initial state of the Platform Chain
 	platformvmArgs := api.BuildGenesisArgs{
-		CryftAssetID:   cryftAssetID,
+		CryftAssetID:  cryftAssetID,
 		NetworkID:     json.Uint32(config.NetworkID),
 		Time:          json.Uint64(config.StartTime),
 		InitialSupply: json.Uint64(initialSupply),

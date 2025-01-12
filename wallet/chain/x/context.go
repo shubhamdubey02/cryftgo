@@ -6,9 +6,9 @@ package x
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/vms/avm"
-	"github.com/cryft-labs/cryftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
 )
 
 func NewContextFromURI(ctx context.Context, uri string) (*builder.Context, error) {
@@ -45,7 +45,7 @@ func NewContextFromClients(
 	return &builder.Context{
 		NetworkID:        networkID,
 		BlockchainID:     chainID,
-		CRYFTAssetID:      asset.AssetID,
+		CRYFTAssetID:     asset.AssetID,
 		BaseTxFee:        uint64(txFees.TxFee),
 		CreateAssetTxFee: uint64(txFees.CreateAssetTxFee),
 	}, nil

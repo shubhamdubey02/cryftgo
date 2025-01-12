@@ -8,13 +8,13 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/vms/avm/fxs"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
 )
 
 var (
@@ -25,9 +25,9 @@ var (
 
 type Operation struct {
 	cryft.Asset `serialize:"true"`
-	UTXOIDs    []*cryft.UTXOID  `serialize:"true"  json:"inputIDs"`
-	FxID       ids.ID          `serialize:"false" json:"fxID"`
-	Op         fxs.FxOperation `serialize:"true"  json:"operation"`
+	UTXOIDs     []*cryft.UTXOID `serialize:"true"  json:"inputIDs"`
+	FxID        ids.ID          `serialize:"false" json:"fxID"`
+	Op          fxs.FxOperation `serialize:"true"  json:"operation"`
 }
 
 func (op *Operation) Verify() error {

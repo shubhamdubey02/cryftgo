@@ -8,12 +8,12 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/perms"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/platformvm"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
 )
 
 // This fetches the current validator set of both Mustang and Mainnet.
@@ -31,7 +31,7 @@ func main() {
 	}
 
 	validators := map[string]set.Set[ids.NodeID]{
-		constants.MustangName:    mustangValidators,
+		constants.MustangName: mustangValidators,
 		constants.MainnetName: mainnetValidators,
 	}
 	validatorsJSON, err := json.MarshalIndent(validators, "", "\t")

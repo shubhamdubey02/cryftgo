@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var _ Calculator = (*calculator)(nil)

@@ -10,8 +10,8 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

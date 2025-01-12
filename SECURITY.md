@@ -14,4 +14,4 @@ Please message us at our [Support](support@cryftlabs.org) email for the most up-
 
 ## Supported Versions
 
-Please use the [most recently released version](https://github.com/cryft-labs/cryftgo/releases/latest) to perform testing and to validate security issues.
+Please use the [most recently released version](https://github.com/shubhamdubey02/cryftgo/releases/latest) to perform testing and to validate security issues.

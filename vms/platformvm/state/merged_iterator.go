@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/cryft-labs/cryftgo/utils/heap"
+import "github.com/shubhamdubey02/cryftgo/utils/heap"
 
 var _ StakerIterator = (*mergedIterator)(nil)
 

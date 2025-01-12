@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cryft-labs/cryftgo/utils/filesystem"
+	"github.com/shubhamdubey02/cryftgo/utils/filesystem"
 )
 
 // Config that is used to describe the options of the continuous profiler.

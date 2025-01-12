@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/database/rpcdb"
+	"github.com/shubhamdubey02/cryftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/database/rpcdb"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/rpcdb"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
 )
 
 func TestDialOptsSmoke(t *testing.T) {

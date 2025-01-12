@@ -81,7 +81,7 @@ sudo apt install cryftgo
 
 ### Binary Install
 
-Download the [latest build](https://github.com/cryft-labs/cryftgo/releases/latest) for your operating system and architecture.
+Download the [latest build](https://github.com/shubhamdubey02/cryftgo/releases/latest) for your operating system and architecture.
 
 The Cryft binary to be executed is named `cryftgo`.
 
@@ -243,4 +243,4 @@ To officially support a new platform, one must satisfy the following requirement
 
 **We and our community welcome responsible disclosures.**
 
-Please refer to our [Security Policy](SECURITY.md) and [Security Advisories](https://github.com/cryft-labs/cryftgo/security/advisories).
+Please refer to our [Security Policy](SECURITY.md) and [Security Advisories](https://github.com/shubhamdubey02/cryftgo/security/advisories).

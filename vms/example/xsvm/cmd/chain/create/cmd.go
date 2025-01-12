@@ -9,12 +9,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/genesis"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 )
 
 func Command() *cobra.Command {
@@ -43,7 +43,7 @@ func createFunc(c *cobra.Command, args []string) error {
 	walletSyncStartTime := time.Now()
 	wallet, err := primary.MakeWallet(ctx, &primary.WalletConfig{
 		URI:              config.URI,
-		CRYFTKeychain:     kc,
+		CRYFTKeychain:    kc,
 		EthKeychain:      kc,
 		PChainTxsToFetch: set.Of(config.SubnetID),
 	})

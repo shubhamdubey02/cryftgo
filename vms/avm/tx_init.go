@@ -6,9 +6,9 @@ package avm
 import (
 	"reflect"
 
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/vms/avm/fxs"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
 )
 
 var _ txs.Visitor = (*txInit)(nil)

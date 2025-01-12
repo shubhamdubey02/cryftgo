@@ -9,23 +9,23 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/indexer"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/perms"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/indexer"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 const (
-	mustangURI    = "http://localhost:9650"
+	mustangURI = "http://localhost:9650"
 	mainnetURI = "http://localhost:9660"
 
 	maxNumCheckpoints = 100
 )
 
 var (
-	mustangXChainID    = ids.FromStringOrPanic("2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm")
-	mustangCChainID    = ids.FromStringOrPanic("yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp")
+	mustangXChainID = ids.FromStringOrPanic("2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm")
+	mustangCChainID = ids.FromStringOrPanic("yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp")
 	mainnetXChainID = ids.FromStringOrPanic("2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM")
 	mainnetCChainID = ids.FromStringOrPanic("2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5")
 )
@@ -67,8 +67,8 @@ func main() {
 	checkpoints := map[string]map[ids.ID]set.Set[ids.ID]{
 		constants.MustangName: {
 			constants.PlatformChainID: mustangPChainCheckpoints,
-			mustangXChainID:              mustangXChainCheckpoints,
-			mustangCChainID:              mustangCChainCheckpoints,
+			mustangXChainID:           mustangXChainCheckpoints,
+			mustangCChainID:           mustangCChainCheckpoints,
 		},
 		constants.MainnetName: {
 			constants.PlatformChainID: mainnetPChainCheckpoints,

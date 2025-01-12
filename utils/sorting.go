@@ -8,7 +8,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 // TODO can we handle sorting where the Compare function relies on a codec?

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/proto/pb/p2p"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 var (

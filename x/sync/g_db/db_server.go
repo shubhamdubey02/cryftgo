@@ -9,12 +9,12 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/maybe"
-	"github.com/cryft-labs/cryftgo/x/merkledb"
-	"github.com/cryft-labs/cryftgo/x/sync"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgoftgo/x/merkledb"
+	"github.com/shubhamdubey02/cryftgoftgo/x/sync"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
 )
 
 var _ pb.DBServer = (*DBServer)(nil)

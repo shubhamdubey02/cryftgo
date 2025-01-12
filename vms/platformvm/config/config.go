@@ -6,16 +6,16 @@ package config
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/chains"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/uptime"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs/fee"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/upgrade"
+	"github.com/shubhamdubey02/cryftgo/chains"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/uptime"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/fee"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/upgrade"
 )
 
 // Struct collecting all foundational parameters of PlatformVM

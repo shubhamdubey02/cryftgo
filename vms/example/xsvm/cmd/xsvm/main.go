@@ -10,11 +10,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/account"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/chain"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/issue"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/run"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/version"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/account"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/chain"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/issue"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/run"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/version"
 )
 
 func init() {

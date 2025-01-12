@@ -11,7 +11,7 @@ import (
 
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 const checksumLen = 4

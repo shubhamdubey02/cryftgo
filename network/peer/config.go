@@ -6,17 +6,17 @@ package peer
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/message"
-	"github.com/cryft-labs/cryftgo/network/throttling"
-	"github.com/cryft-labs/cryftgo/snow/networking/router"
-	"github.com/cryft-labs/cryftgo/snow/networking/tracker"
-	"github.com/cryft-labs/cryftgo/snow/uptime"
-	"github.com/cryft-labs/cryftgo/snow/validators"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/timer/mockable"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/message"
+	"github.com/shubhamdubey02/cryftgoftgo/network/throttling"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/router"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/uptime"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 type Config struct {

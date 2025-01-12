@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/network"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/network"
 )
 
 var DefaultExecutionConfig = ExecutionConfig{

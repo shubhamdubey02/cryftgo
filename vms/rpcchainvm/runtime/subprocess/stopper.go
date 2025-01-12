@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
 )
 
 func NewStopper(logger logging.Logger, cmd *exec.Cmd) runtime.Stopper {

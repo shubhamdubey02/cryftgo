@@ -6,8 +6,8 @@ package warp
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
 )
 
 // UnsignedMessage defines the standard format for an unsigned Warp message.

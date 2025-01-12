@@ -9,27 +9,27 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 )
 
 // Const variables to be exported
 const (
 	MainnetID  uint32 = 1
-	MustangID    uint32 = 5
+	MustangID  uint32 = 5
 	UnitTestID uint32 = 10
 	LocalID    uint32 = 12345
 
-	TestnetID  uint32 = MustangID
+	TestnetID uint32 = MustangID
 
 	MainnetName  = "mainnet"
-	MustangName    = "mustang"
+	MustangName  = "mustang"
 	TestnetName  = "testnet"
 	UnitTestName = "testing"
 	LocalName    = "local"
 
 	MainnetHRP  = "cryft"
-	MustangHRP    = "mustang"
+	MustangHRP  = "mustang"
 	UnitTestHRP = "testing"
 	LocalHRP    = "local"
 	FallbackHRP = "custom"
@@ -42,13 +42,13 @@ var (
 
 	NetworkIDToNetworkName = map[uint32]string{
 		MainnetID:  MainnetName,
-		MustangID:    MustangName,
+		MustangID:  MustangName,
 		UnitTestID: UnitTestName,
 		LocalID:    LocalName,
 	}
 	NetworkNameToNetworkID = map[string]uint32{
 		MainnetName:  MainnetID,
-		MustangName:    MustangID,
+		MustangName:  MustangID,
 		TestnetName:  TestnetID,
 		UnitTestName: UnitTestID,
 		LocalName:    LocalID,
@@ -56,13 +56,13 @@ var (
 
 	NetworkIDToHRP = map[uint32]string{
 		MainnetID:  MainnetHRP,
-		MustangID:    MustangHRP,
+		MustangID:  MustangHRP,
 		UnitTestID: UnitTestHRP,
 		LocalID:    LocalHRP,
 	}
 	NetworkHRPToNetworkID = map[string]uint32{
 		MainnetHRP:  MainnetID,
-		MustangHRP:    MustangID,
+		MustangHRP:  MustangID,
 		UnitTestHRP: UnitTestID,
 		LocalHRP:    LocalID,
 	}

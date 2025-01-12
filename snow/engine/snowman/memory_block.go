@@ -6,8 +6,8 @@ package snowman
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/snow/consensus/snowman"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/ancestor"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/ancestor"
 )
 
 var _ snowman.Block = (*memoryBlock)(nil)

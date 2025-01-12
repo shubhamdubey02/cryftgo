@@ -11,28 +11,28 @@ import (
 	"os"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/choices"
-	"github.com/cryft-labs/cryftgo/tests/antithesis"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/avm"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/status"
-	"github.com/cryft-labs/cryftgo/vms/propertyfx"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgoftgo/tests/antithesis"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/status"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 
-	xtxs "github.com/cryft-labs/cryftgo/vms/avm/txs"
-	ptxs "github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	xbuilder "github.com/cryft-labs/cryftgo/wallet/chain/x/builder"
+	xtxs "github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	ptxs "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	xbuilder "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
 )
 
 const NumKeys = 5
@@ -51,9 +51,9 @@ func main() {
 	kc := secp256k1fx.NewKeychain(genesis.EWOQKey)
 	walletSyncStartTime := time.Now()
 	wallet, err := primary.MakeWallet(ctx, &primary.WalletConfig{
-		URI:          c.URIs[0],
+		URI:           c.URIs[0],
 		CRYFTKeychain: kc,
-		EthKeychain:  kc,
+		EthKeychain:   kc,
 	})
 	if err != nil {
 		log.Fatalf("failed to initialize wallet: %s", err)
@@ -74,7 +74,7 @@ func main() {
 		genesisXWallet  = wallet.X()
 		genesisXBuilder = genesisXWallet.Builder()
 		genesisXContext = genesisXBuilder.Context()
-		cryftAssetID     = genesisXContext.CRYFTAssetID
+		cryftAssetID    = genesisXContext.CRYFTAssetID
 	)
 	for i := 1; i < NumKeys; i++ {
 		key, err := secp256k1.NewPrivateKey()
@@ -111,9 +111,9 @@ func main() {
 		kc := secp256k1fx.NewKeychain(key)
 		walletSyncStartTime := time.Now()
 		wallet, err := primary.MakeWallet(ctx, &primary.WalletConfig{
-			URI:          uri,
+			URI:           uri,
 			CRYFTKeychain: kc,
-			EthKeychain:  kc,
+			EthKeychain:   kc,
 		})
 		if err != nil {
 			log.Fatalf("failed to initialize wallet: %s", err)
@@ -162,7 +162,7 @@ func (w *workload) run(ctx context.Context) {
 		log.Fatalf("failed to fetch P-chain balances: %s", err)
 	}
 	var (
-		xContext    = xBuilder.Context()
+		xContext     = xBuilder.Context()
 		cryftAssetID = xContext.CRYFTAssetID
 		xCRYFT       = xBalances[cryftAssetID]
 		pCRYFT       = pBalances[cryftAssetID]
@@ -217,8 +217,8 @@ func (w *workload) issueXChainBaseTx(ctx context.Context) {
 
 	var (
 		xContext      = xBuilder.Context()
-		cryftAssetID   = xContext.CRYFTAssetID
-		cryftBalance   = balances[cryftAssetID]
+		cryftAssetID  = xContext.CRYFTAssetID
+		cryftBalance  = balances[cryftAssetID]
 		baseTxFee     = xContext.BaseTxFee
 		neededBalance = baseTxFee + units.Schmeckle
 	)
@@ -267,8 +267,8 @@ func (w *workload) issueXChainCreateAssetTx(ctx context.Context) {
 
 	var (
 		xContext      = xBuilder.Context()
-		cryftAssetID   = xContext.CRYFTAssetID
-		cryftBalance   = balances[cryftAssetID]
+		cryftAssetID  = xContext.CRYFTAssetID
+		cryftBalance  = balances[cryftAssetID]
 		neededBalance = xContext.CreateAssetTxFee
 	)
 	if cryftBalance < neededBalance {
@@ -316,8 +316,8 @@ func (w *workload) issueXChainOperationTx(ctx context.Context) {
 
 	var (
 		xContext         = xBuilder.Context()
-		cryftAssetID      = xContext.CRYFTAssetID
-		cryftBalance      = balances[cryftAssetID]
+		cryftAssetID     = xContext.CRYFTAssetID
+		cryftBalance     = balances[cryftAssetID]
 		createAssetTxFee = xContext.CreateAssetTxFee
 		baseTxFee        = xContext.BaseTxFee
 		neededBalance    = createAssetTxFee + baseTxFee
@@ -380,8 +380,8 @@ func (w *workload) issueXToPTransfer(ctx context.Context) {
 
 	var (
 		xContext      = xBuilder.Context()
-		cryftAssetID   = xContext.CRYFTAssetID
-		cryftBalance   = balances[cryftAssetID]
+		cryftAssetID  = xContext.CRYFTAssetID
+		cryftBalance  = balances[cryftAssetID]
 		xBaseTxFee    = xContext.BaseTxFee
 		pBuilder      = pWallet.Builder()
 		pContext      = pBuilder.Context()
@@ -451,8 +451,8 @@ func (w *workload) issuePToXTransfer(ctx context.Context) {
 	var (
 		xContext      = xBuilder.Context()
 		pContext      = pBuilder.Context()
-		cryftAssetID   = pContext.CRYFTAssetID
-		cryftBalance   = balances[cryftAssetID]
+		cryftAssetID  = pContext.CRYFTAssetID
+		cryftBalance  = balances[cryftAssetID]
 		pBaseTxFee    = pContext.BaseTxFee
 		xBaseTxFee    = xContext.BaseTxFee
 		txFees        = pBaseTxFee + xBaseTxFee

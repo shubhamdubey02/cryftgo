@@ -1,4 +1,4 @@
-module github.com/cryft-labs/cryftgo
+module github.com/shubhamdubey02/cryftgo
 
 // Changes to the minimum golang version must also be replicated in
 // CONTRIBUTING.md

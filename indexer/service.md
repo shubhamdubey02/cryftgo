@@ -36,7 +36,7 @@ when running with `--index-enabled`.
 ## Go Client
 
 There is a Go implementation of an Index API client. See documentation
-[here](https://pkg.go.dev/github.com/cryft-labs/cryftgo/indexer#Client). This client can be used
+[here](https://pkg.go.dev/github.com/shubhamdubey02/cryftgo/indexer#Client). This client can be used
 inside a Go program to connect to an CryftGo node that is running with the Index API enabled and
 make calls to the Index API.
 

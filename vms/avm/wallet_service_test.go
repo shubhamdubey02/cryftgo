@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/api"
+	"github.com/shubhamdubey02/cryftgo/api"
 )
 
 func TestWalletService_SendMultiple(t *testing.T) {

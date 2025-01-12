@@ -6,10 +6,10 @@ package signer
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/crypto/keychain"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/keychain"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
 )
 
 var _ Signer = (*signer)(nil)

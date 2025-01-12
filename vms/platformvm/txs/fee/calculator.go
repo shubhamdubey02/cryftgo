@@ -6,9 +6,9 @@ package fee
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/txs"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/upgrade"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/upgrade"
 )
 
 var _ txs.Visitor = (*calculator)(nil)

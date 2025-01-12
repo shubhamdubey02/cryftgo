@@ -11,7 +11,7 @@ import (
 
 	"github.com/cockroachdb/pebble"
 
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 var (

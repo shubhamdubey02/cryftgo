@@ -4,8 +4,8 @@
 package math
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/heap"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/heap"
 )
 
 var _ AveragerHeap = (*averagerHeap)(nil)

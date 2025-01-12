@@ -3,7 +3,7 @@
 
 package dynamicip
 
-import "github.com/cryft-labs/cryftgo/utils/logging"
+import "github.com/shubhamdubey02/cryftgo/utils/logging"
 
 var _ Updater = noUpdater{}
 

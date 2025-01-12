@@ -6,11 +6,11 @@ package appsender
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow/engine/common"
-	"github.com/cryft-labs/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
 
-	appsenderpb "github.com/cryft-labs/cryftgo/proto/pb/appsender"
+	appsenderpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/appsender"
 )
 
 var _ common.AppSender = (*Client)(nil)

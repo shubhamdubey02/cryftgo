@@ -6,7 +6,7 @@ package block
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 // Parse a block and verify that the signature attached to the block is valid

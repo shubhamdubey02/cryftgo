@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 func newNnarySlush(choice ids.ID) nnarySlush {

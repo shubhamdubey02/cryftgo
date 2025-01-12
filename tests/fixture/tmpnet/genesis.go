@@ -14,13 +14,13 @@ import (
 	"github.com/cryft-labs/coreth/params"
 	"github.com/cryft-labs/coreth/plugin/evm"
 
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
 )
 
 const (
@@ -83,7 +83,7 @@ func NewTestGenesis(
 	// The eth address is only needed to link pre-mainnet assets. Until that capability
 	// becomes necessary for testing, use a bogus address.
 	//
-	// Reference: https://github.com/cryft-labs/cryftgo/issues/1365#issuecomment-1511508767
+	// Reference: https://github.com/shubhamdubey02/cryftgoftgo/issues/1365#issuecomment-1511508767
 	ethAddress := "0x0000000000000000000000000000000000000000"
 
 	now := time.Now()
@@ -93,7 +93,7 @@ func NewTestGenesis(
 		Allocations: []genesis.UnparsedAllocation{
 			{
 				ETHAddr:       ethAddress,
-				CRYFTAddr:      stakeAddress,
+				CRYFTAddr:     stakeAddress,
 				InitialAmount: 0,
 				UnlockSchedule: []genesis.LockedAmount{ // Provides stake to validators
 					{
@@ -131,7 +131,7 @@ func NewTestGenesis(
 			config.Allocations,
 			genesis.UnparsedAllocation{
 				ETHAddr:       ethAddress,
-				CRYFTAddr:      cryftAddr,
+				CRYFTAddr:     cryftAddr,
 				InitialAmount: balance,
 				UnlockSchedule: []genesis.LockedAmount{
 					{

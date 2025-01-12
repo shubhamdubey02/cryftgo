@@ -6,19 +6,19 @@ package builder
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
 )
 
 const Alias = "P"
 
 type Context struct {
 	NetworkID                     uint32
-	CRYFTAssetID                   ids.ID
+	CRYFTAssetID                  ids.ID
 	BaseTxFee                     uint64
 	CreateSubnetTxFee             uint64
 	TransformSubnetTxFee          uint64
@@ -57,7 +57,7 @@ func NewContextFromClients(
 
 	return &Context{
 		NetworkID:                     networkID,
-		CRYFTAssetID:                   asset.AssetID,
+		CRYFTAssetID:                  asset.AssetID,
 		BaseTxFee:                     uint64(txFees.TxFee),
 		CreateSubnetTxFee:             uint64(txFees.CreateSubnetTxFee),
 		TransformSubnetTxFee:          uint64(txFees.TransformSubnetTxFee),
@@ -72,11 +72,11 @@ func NewContextFromClients(
 func NewSnowContext(networkID uint32, cryftAssetID ids.ID) (*snow.Context, error) {
 	lookup := ids.NewAliaser()
 	return &snow.Context{
-		NetworkID:   networkID,
-		SubnetID:    constants.PrimaryNetworkID,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    networkID,
+		SubnetID:     constants.PrimaryNetworkID,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
-		Log:         logging.NoLog{},
-		BCLookup:    lookup,
+		Log:          logging.NoLog{},
+		BCLookup:     lookup,
 	}, lookup.Alias(constants.PlatformChainID, Alias)
 }

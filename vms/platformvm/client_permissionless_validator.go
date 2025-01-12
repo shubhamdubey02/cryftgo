@@ -6,10 +6,10 @@ package platformvm
 import (
 	"encoding/json"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/api"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/api"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
 )
 
 // ClientStaker is the representation of a staker sent via client.

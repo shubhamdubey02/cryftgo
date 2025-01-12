@@ -6,9 +6,9 @@ package tmpnet
 import (
 	"fmt"
 
-	"github.com/cryft-labs/cryftgo/config"
-	"github.com/cryft-labs/cryftgo/genesis"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgoftgo/genesis"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
 )
 
 func LocalNetworkOrPanic() *Network {

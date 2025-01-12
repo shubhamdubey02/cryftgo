@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/cryft-labs/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
 )
 
 // Defines a mapping of flag keys to values intended to be supplied to

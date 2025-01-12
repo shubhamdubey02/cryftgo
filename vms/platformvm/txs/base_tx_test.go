@@ -9,15 +9,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/stakeable"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/vms/types"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/types"
 )
 
 func TestBaseTxSerialization(t *testing.T) {
@@ -72,8 +72,8 @@ func TestBaseTxSerialization(t *testing.T) {
 		},
 	}
 	require.NoError(simpleBaseTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -218,8 +218,8 @@ func TestBaseTxSerialization(t *testing.T) {
 	cryft.SortTransferableOutputs(complexBaseTx.Outs, Codec)
 	utils.Sort(complexBaseTx.Ins)
 	require.NoError(complexBaseTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -366,10 +366,10 @@ func TestBaseTxSerialization(t *testing.T) {
 	require.NoError(aliaser.Alias(constants.PlatformChainID, "P"))
 
 	unsignedComplexBaseTx.InitCtx(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
-		BCLookup:    aliaser,
+		BCLookup:     aliaser,
 	})
 
 	unsignedComplexBaseTxJSONBytes, err := json.MarshalIndent(unsignedComplexBaseTx, "", "\t")

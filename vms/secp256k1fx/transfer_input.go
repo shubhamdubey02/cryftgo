@@ -6,7 +6,7 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/cryft-labs/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow"
 )
 
 var ErrNoValueInput = errors.New("input has no value")

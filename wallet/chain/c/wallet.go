@@ -11,9 +11,9 @@ import (
 	"github.com/cryft-labs/coreth/ethclient"
 	"github.com/cryft-labs/coreth/plugin/evm"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
@@ -76,20 +76,20 @@ func NewWallet(
 	backend Backend,
 ) Wallet {
 	return &wallet{
-		Backend:    backend,
-		builder:    builder,
-		signer:     signer,
+		Backend:     backend,
+		builder:     builder,
+		signer:      signer,
 		cryftClient: cryftClient,
-		ethClient:  ethClient,
+		ethClient:   ethClient,
 	}
 }
 
 type wallet struct {
 	Backend
-	builder    Builder
-	signer     Signer
+	builder     Builder
+	signer      Signer
 	cryftClient evm.Client
-	ethClient  ethclient.Client
+	ethClient   ethclient.Client
 }
 
 func (w *wallet) Builder() Builder {

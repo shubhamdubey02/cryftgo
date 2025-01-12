@@ -6,8 +6,8 @@ package validators
 import (
 	"context"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/version"
 )
 
 // Connector represents a handler that is called when a connection is marked as

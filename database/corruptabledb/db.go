@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 var (

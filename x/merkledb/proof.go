@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/trace"
-	"github.com/cryft-labs/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/trace"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
 
-	pb "github.com/cryft-labs/cryftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
 )
 
 const verificationCacheSize = math.MaxUint16

@@ -12,10 +12,10 @@ package txs
 import (
 	reflect "reflect"
 
-	ids "github.com/cryft-labs/cryftgo/ids"
-	snow "github.com/cryft-labs/cryftgo/snow"
-	set "github.com/cryft-labs/cryftgo/utils/set"
-	cryft "github.com/cryft-labs/cryftgo/vms/components/cryft"
+	ids "github.com/shubhamdubey02/cryftgo/ids"
+	snow "github.com/shubhamdubey02/cryftgoftgo/snow"
+	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	cryft "github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
 	gomock "go.uber.org/mock/gomock"
 )
 

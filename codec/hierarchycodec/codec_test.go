@@ -6,7 +6,7 @@ package hierarchycodec
 import (
 	"testing"
 
-	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/codec"
 )
 
 func TestVectors(t *testing.T) {

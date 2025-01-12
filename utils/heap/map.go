@@ -6,7 +6,7 @@ package heap
 import (
 	"container/heap"
 
-	"github.com/cryft-labs/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils"
 )
 
 var _ heap.Interface = (*indexedQueue[int, int])(nil)

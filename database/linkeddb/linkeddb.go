@@ -7,8 +7,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/cache"
-	"github.com/cryft-labs/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/cache"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
 )
 
 const (

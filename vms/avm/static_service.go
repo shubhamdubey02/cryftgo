@@ -9,29 +9,29 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/formatting/address"
-	"github.com/cryft-labs/cryftgo/vms/avm/fxs"
-	"github.com/cryft-labs/cryftgo/vms/avm/txs"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/nftfx"
-	"github.com/cryft-labs/cryftgo/vms/propertyfx"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
 
-	avajson "github.com/cryft-labs/cryftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
 )
 
 var (
 	errUnknownAssetType = errors.New("unknown asset type")
 
 	_ cryft.TransferableIn  = (*secp256k1fx.TransferInput)(nil)
-	_ verify.State         = (*secp256k1fx.MintOutput)(nil)
+	_ verify.State          = (*secp256k1fx.MintOutput)(nil)
 	_ cryft.TransferableOut = (*secp256k1fx.TransferOutput)(nil)
-	_ fxs.FxOperation      = (*secp256k1fx.MintOperation)(nil)
-	_ verify.Verifiable    = (*secp256k1fx.Credential)(nil)
+	_ fxs.FxOperation       = (*secp256k1fx.MintOperation)(nil)
+	_ verify.Verifiable     = (*secp256k1fx.Credential)(nil)
 
 	_ verify.State      = (*nftfx.MintOutput)(nil)
 	_ verify.State      = (*nftfx.TransferOutput)(nil)

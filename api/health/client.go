@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgo/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

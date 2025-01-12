@@ -3,7 +3,7 @@
 
 package linked
 
-import "github.com/cryft-labs/cryftgo/utils"
+import "github.com/shubhamdubey02/cryftgo/utils"
 
 type keyValue[K, V any] struct {
 	key   K

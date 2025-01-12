@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	readerpb "github.com/cryft-labs/cryftgo/proto/pb/io/reader"
+	readerpb "github.com/shubhamdubey02/cryftgo/proto/pb/io/reader"
 )
 
 var _ readerpb.ReaderServer = (*Server)(nil)

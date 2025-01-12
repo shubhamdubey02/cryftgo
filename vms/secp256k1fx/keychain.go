@@ -11,12 +11,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/crypto/keychain"
-	"github.com/cryft-labs/cryftgo/utils/crypto/secp256k1"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/keychain"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
 )
 
 var (
@@ -28,7 +28,7 @@ var (
 // Keychain is a collection of keys that can be used to spend outputs
 type Keychain struct {
 	cryftAddrToKeyIndex map[ids.ShortID]int
-	ethAddrToKeyIndex  map[common.Address]int
+	ethAddrToKeyIndex   map[common.Address]int
 
 	// These can be used to iterate over. However, they should not be modified
 	// externally.
@@ -41,7 +41,7 @@ type Keychain struct {
 func NewKeychain(keys ...*secp256k1.PrivateKey) *Keychain {
 	kc := &Keychain{
 		cryftAddrToKeyIndex: make(map[ids.ShortID]int),
-		ethAddrToKeyIndex:  make(map[common.Address]int),
+		ethAddrToKeyIndex:   make(map[common.Address]int),
 	}
 	for _, key := range keys {
 		kc.Add(key)

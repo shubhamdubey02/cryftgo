@@ -3,7 +3,7 @@
 
 package chains
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 // TestManager implements Manager but does nothing. Always returns nil error.
 // To be used only in tests

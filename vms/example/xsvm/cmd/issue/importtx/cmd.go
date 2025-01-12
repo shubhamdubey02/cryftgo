@@ -11,13 +11,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cryft-labs/cryftgo/api/info"
-	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
-	"github.com/cryft-labs/cryftgo/utils/set"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/api"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/cmd/issue/status"
-	"github.com/cryft-labs/cryftgo/vms/example/xsvm/tx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/api/info"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/api"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/issue/status"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
 )
 
 func Command() *cobra.Command {

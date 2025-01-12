@@ -6,13 +6,13 @@ package cryft
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/cryft-labs/cryftgo/cache"
-	"github.com/cryft-labs/cryftgo/cache/metercacher"
-	"github.com/cryft-labs/cryftgo/codec"
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/database/linkeddb"
-	"github.com/cryft-labs/cryftgo/database/prefixdb"
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/cache"
+	"github.com/shubhamdubey02/cryftgoftgo/cache/metercacher"
+	"github.com/shubhamdubey02/cryftgoftgo/codec"
+	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/database/linkeddb"
+	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
 )
 
 const (

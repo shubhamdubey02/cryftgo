@@ -12,11 +12,11 @@ package sender
 import (
 	reflect "reflect"
 
-	ids "github.com/cryft-labs/cryftgo/ids"
-	message "github.com/cryft-labs/cryftgo/message"
-	common "github.com/cryft-labs/cryftgo/snow/engine/common"
-	subnets "github.com/cryft-labs/cryftgo/subnets"
-	set "github.com/cryft-labs/cryftgo/utils/set"
+	ids "github.com/shubhamdubey02/cryftgo/ids"
+	message "github.com/shubhamdubey02/cryftgoftgo/message"
+	common "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
+	subnets "github.com/shubhamdubey02/cryftgoftgo/subnets"
+	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

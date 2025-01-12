@@ -3,7 +3,7 @@
 
 package buffer
 
-import "github.com/cryft-labs/cryftgo/utils"
+import "github.com/shubhamdubey02/cryftgo/utils"
 
 const defaultInitSize = 32
 

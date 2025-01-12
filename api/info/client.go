@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/rpc"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
 )
 
 var _ Client = (*client)(nil)

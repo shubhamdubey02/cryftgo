@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/cryft-labs/cryftgo/codec"
+	"github.com/shubhamdubey02/cryftgo/codec"
 )
 
 // TagValue is the value the tag must have to be serialized.

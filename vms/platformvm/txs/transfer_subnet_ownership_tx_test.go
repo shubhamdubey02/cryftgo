@@ -10,17 +10,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/cryft-labs/cryftgo/utils"
-	"github.com/cryft-labs/cryftgo/utils/constants"
-	"github.com/cryft-labs/cryftgo/utils/units"
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
-	"github.com/cryft-labs/cryftgo/vms/components/verify"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/fx"
-	"github.com/cryft-labs/cryftgo/vms/platformvm/stakeable"
-	"github.com/cryft-labs/cryftgo/vms/secp256k1fx"
-	"github.com/cryft-labs/cryftgo/vms/types"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/snow"
+	"github.com/shubhamdubey02/cryftgoftgo/utils"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/types"
 )
 
 func TestTransferSubnetOwnershipTxSerialization(t *testing.T) {
@@ -94,8 +94,8 @@ func TestTransferSubnetOwnershipTxSerialization(t *testing.T) {
 		},
 	}
 	require.NoError(simpleTransferSubnetOwnershipTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -276,8 +276,8 @@ func TestTransferSubnetOwnershipTxSerialization(t *testing.T) {
 	cryft.SortTransferableOutputs(complexTransferSubnetOwnershipTx.Outs, Codec)
 	utils.Sort(complexTransferSubnetOwnershipTx.Ins)
 	require.NoError(complexTransferSubnetOwnershipTx.SyntacticVerify(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
 	}))
 
@@ -445,10 +445,10 @@ func TestTransferSubnetOwnershipTxSerialization(t *testing.T) {
 	require.NoError(aliaser.Alias(constants.PlatformChainID, "P"))
 
 	unsignedComplexTransferSubnetOwnershipTx.InitCtx(&snow.Context{
-		NetworkID:   1,
-		ChainID:     constants.PlatformChainID,
+		NetworkID:    1,
+		ChainID:      constants.PlatformChainID,
 		CRYFTAssetID: cryftAssetID,
-		BCLookup:    aliaser,
+		BCLookup:     aliaser,
 	})
 
 	unsignedComplexTransferSubnetOwnershipTxJSONBytes, err := json.MarshalIndent(unsignedComplexTransferSubnetOwnershipTx, "", "\t")

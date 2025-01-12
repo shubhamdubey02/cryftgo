@@ -4,10 +4,10 @@
 package rpcchainvm
 
 import (
-	"github.com/cryft-labs/cryftgo/database"
-	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
 
-	vmpb "github.com/cryft-labs/cryftgo/proto/pb/vm"
+	vmpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm"
 )
 
 var (

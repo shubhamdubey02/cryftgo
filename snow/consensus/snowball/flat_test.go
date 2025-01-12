@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cryft-labs/cryftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 func TestFlat(t *testing.T) {

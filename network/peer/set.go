@@ -4,8 +4,8 @@
 package peer
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
 )
 
 var _ Set = (*peerSet)(nil)

@@ -6,8 +6,8 @@ package constants
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/utils/compression"
-	"github.com/cryft-labs/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
 )
 
 const (

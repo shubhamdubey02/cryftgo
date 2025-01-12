@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/database/memdb"
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/cryft-labs/cryftgo/utils/logging"
-	"github.com/cryft-labs/cryftgo/vms"
-	"github.com/cryft-labs/cryftgo/vms/registry"
+	"github.com/shubhamdubey02/cryftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgoftgo/vms"
+	"github.com/shubhamdubey02/cryftgoftgo/vms/registry"
 
-	rpcdbpb "github.com/cryft-labs/cryftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
 )
 
 type loadVMsTest struct {

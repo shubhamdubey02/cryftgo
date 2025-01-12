@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/cryft-labs/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
 )
 
 // SubnetValidator validates a subnet on the Avalanche network.

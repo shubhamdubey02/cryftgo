@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/cryft-labs/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 )
 
 var errTest = errors.New("hi mom")

@@ -3,7 +3,7 @@
 
 package indexer
 
-import "github.com/cryft-labs/cryftgo/ids"
+import "github.com/shubhamdubey02/cryftgo/ids"
 
 // Container is something that gets accepted
 // (a block, transaction or vertex)

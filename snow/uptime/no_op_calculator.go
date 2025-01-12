@@ -6,7 +6,7 @@ package uptime
 import (
 	"time"
 
-	"github.com/cryft-labs/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var NoOpCalculator Calculator = noOpCalculator{}
