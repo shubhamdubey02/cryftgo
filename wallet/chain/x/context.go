@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/api/info"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgo/vms/avm"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/x/builder"
 )
 
 func NewContextFromURI(ctx context.Context, uri string) (*builder.Context, error) {

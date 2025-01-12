@@ -5,8 +5,8 @@ package snowman
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
 )
 
 // Tracks the state of a snowman block

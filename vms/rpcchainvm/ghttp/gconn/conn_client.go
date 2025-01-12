@@ -14,7 +14,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
-	connpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/net/conn"
+	connpb "github.com/shubhamdubey02/cryftgo/proto/pb/net/conn"
 )
 
 var _ net.Conn = (*Client)(nil)

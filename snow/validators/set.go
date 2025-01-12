@@ -12,11 +12,11 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 var (

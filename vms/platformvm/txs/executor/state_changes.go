@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 var (

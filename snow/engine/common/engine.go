@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/api/health"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // Engine describes the standard interface of a consensus engine.

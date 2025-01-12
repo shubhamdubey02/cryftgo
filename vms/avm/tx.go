@@ -11,12 +11,12 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs/executor"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs/executor"
 )
 
 var (

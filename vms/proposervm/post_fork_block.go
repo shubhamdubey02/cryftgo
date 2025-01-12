@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/block"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/vms/proposervm/block"
 )
 
 var _ PostForkBlock = (*postForkBlock)(nil)

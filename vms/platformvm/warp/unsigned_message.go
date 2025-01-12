@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 // UnsignedMessage defines the standard format for an unsigned Warp message.

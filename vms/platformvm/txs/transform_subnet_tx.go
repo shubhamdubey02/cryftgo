@@ -8,10 +8,10 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/reward"
 )
 
 var (

@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/utils/rpc"
 )
 
 type mockClient struct {

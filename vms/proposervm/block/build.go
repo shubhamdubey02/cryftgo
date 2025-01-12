@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/staking"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/staking"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 func BuildUnsigned(

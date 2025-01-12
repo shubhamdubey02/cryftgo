@@ -17,7 +17,7 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 // Tests is a list of all database tests

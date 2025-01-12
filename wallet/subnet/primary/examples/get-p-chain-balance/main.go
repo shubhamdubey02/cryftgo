@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/p"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/p/builder"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 )
 
 func main() {

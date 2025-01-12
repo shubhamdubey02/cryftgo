@@ -5,7 +5,7 @@ package block
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 // CommonBlock contains fields and methods common to all blocks in this VM.

@@ -8,13 +8,13 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman/snowmantest"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/snowtest"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman/snowmantest"
+	"github.com/shubhamdubey02/cryftgo/snow/snowtest"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/sampler"
 )
 
 type Network struct {

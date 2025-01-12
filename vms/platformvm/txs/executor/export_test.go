@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/state"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 func TestNewExportTx(t *testing.T) {

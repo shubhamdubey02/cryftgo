@@ -7,10 +7,10 @@ import (
 	"math"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 const CodecVersion = txs.CodecVersion

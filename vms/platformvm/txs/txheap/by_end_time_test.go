@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 func TestByEndTime(t *testing.T) {

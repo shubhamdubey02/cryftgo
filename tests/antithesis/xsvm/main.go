@@ -12,14 +12,14 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/antithesis"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/api"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/issue/status"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/tests/antithesis"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/api"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/issue/status"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/issue/transfer"
 )
 
 const NumKeys = 5

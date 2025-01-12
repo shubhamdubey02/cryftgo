@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/signer"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/x/signer"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 )
 
 var _ Backend = (*backend)(nil)

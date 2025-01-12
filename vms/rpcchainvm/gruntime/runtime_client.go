@@ -8,7 +8,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm/runtime"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/vm/runtime"
 )
 
 var _ runtime.Initializer = (*Client)(nil)

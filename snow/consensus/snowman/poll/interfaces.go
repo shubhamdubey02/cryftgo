@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
 )
 
 // Set is a collection of polls

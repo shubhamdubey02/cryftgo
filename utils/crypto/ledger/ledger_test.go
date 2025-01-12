@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
 )
 
 var TestManager Manager = testManager{}

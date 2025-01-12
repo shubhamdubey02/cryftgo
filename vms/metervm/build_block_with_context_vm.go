@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 )
 
 func (vm *blockVM) BuildBlockWithContext(ctx context.Context, blockCtx *block.Context) (snowman.Block, error) {

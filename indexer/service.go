@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 type service struct {

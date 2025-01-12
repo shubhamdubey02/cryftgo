@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/signer"
 )
 
 var (

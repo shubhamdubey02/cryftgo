@@ -8,9 +8,9 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/types"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/vms/types"
 )
 
 const (

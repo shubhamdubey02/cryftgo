@@ -7,8 +7,8 @@ import (
 	"bytes"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 var (

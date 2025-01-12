@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
-	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var _ SetCallbackListener = (*setCallbackListener)(nil)

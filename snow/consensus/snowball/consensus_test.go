@@ -5,7 +5,7 @@ package snowball
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 var (

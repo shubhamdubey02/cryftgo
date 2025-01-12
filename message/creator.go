@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/metric"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/metric"
 )
 
 var _ Creator = (*creator)(nil)

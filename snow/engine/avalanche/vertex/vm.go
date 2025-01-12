@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 )
 
 type LinearizableVMWithEngine interface {

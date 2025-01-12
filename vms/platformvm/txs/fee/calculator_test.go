@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/upgrade"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/upgrade"
 )
 
 func TestTxFees(t *testing.T) {

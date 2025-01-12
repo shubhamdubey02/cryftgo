@@ -13,17 +13,17 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/types"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/vms/types"
 
-	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var errCustom = errors.New("custom error")

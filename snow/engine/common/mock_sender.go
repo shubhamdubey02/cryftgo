@@ -14,7 +14,7 @@ import (
 	reflect "reflect"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	set "github.com/shubhamdubey02/cryftgo/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

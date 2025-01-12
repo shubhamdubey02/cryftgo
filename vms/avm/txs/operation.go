@@ -9,12 +9,12 @@ import (
 	"sort"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
 )
 
 var (

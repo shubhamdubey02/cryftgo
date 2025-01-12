@@ -12,9 +12,9 @@ import (
 	"github.com/cryft-labs/coreth/plugin/evm"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 
 	stdcontext "context"
 

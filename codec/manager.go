@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

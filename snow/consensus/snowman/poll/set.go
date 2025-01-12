@@ -13,10 +13,10 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/linked"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/metric"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/metric"
 )
 
 var (

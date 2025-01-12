@@ -14,9 +14,9 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 func TestValidatorsSample(t *testing.T) {

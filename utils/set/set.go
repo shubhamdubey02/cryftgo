@@ -11,9 +11,9 @@ import (
 	"golang.org/x/exp/maps"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
-	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 // The minimum capacity of a set

@@ -7,8 +7,8 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/sdk"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/sdk"
+	"github.com/shubhamdubey02/cryftgo/utils/bloom"
 )
 
 func MarshalAppRequest(filter, salt []byte) ([]byte, error) {

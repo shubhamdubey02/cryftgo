@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/chains"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
-	"github.com/shubhamdubey02/cryftgoftgo/subnets"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/subnets"
 )
 
 const chainConfigFilenameExtention = ".ex"

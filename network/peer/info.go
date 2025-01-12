@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/json"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/json"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 type Info struct {

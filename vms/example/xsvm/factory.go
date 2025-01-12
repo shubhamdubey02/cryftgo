@@ -5,7 +5,7 @@ package xsvm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms"
 )
 
 var _ vms.Factory = (*Factory)(nil)

@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman/snowmantest"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman/snowmantest"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 var (

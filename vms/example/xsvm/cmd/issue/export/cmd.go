@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/api"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/issue/status"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/issue/status"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
 )
 
 func Command() *cobra.Command {

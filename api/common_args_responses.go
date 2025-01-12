@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
 
-	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

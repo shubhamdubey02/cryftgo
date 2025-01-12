@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 func TestSharedMemory(t *testing.T) {

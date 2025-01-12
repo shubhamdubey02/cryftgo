@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
 )
 
 const (

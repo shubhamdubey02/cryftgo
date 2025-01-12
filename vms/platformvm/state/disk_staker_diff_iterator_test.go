@@ -10,7 +10,7 @@ import (
 	"github.com/thepudds/fzgen/fuzzer"
 
 	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 func FuzzMarshalDiffKey(f *testing.F) {

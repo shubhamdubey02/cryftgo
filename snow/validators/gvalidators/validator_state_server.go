@@ -9,10 +9,10 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/validatorstate"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/validatorstate"
 )
 
 var _ pb.ValidatorStateServer = (*Server)(nil)

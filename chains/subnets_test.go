@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/subnets"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/subnets"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
 )
 
 func TestNewSubnets(t *testing.T) {

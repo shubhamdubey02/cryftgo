@@ -7,9 +7,9 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // Op is an opcode

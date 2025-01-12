@@ -10,11 +10,11 @@ import (
 	"slices"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/linkeddb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/database/linkeddb"
+	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 var (

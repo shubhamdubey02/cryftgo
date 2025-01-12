@@ -12,8 +12,8 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math/meter"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/utils/math/meter"
+	"github.com/shubhamdubey02/cryftgo/utils/resource"
 )
 
 func TestNewCPUTracker(t *testing.T) {

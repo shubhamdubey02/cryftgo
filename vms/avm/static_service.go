@@ -10,18 +10,18 @@ import (
 	"net/http"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting/address"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting/address"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 
-	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 var (

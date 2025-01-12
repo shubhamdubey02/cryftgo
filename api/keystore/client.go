@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/rpc"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

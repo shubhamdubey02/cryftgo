@@ -10,7 +10,7 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 var (

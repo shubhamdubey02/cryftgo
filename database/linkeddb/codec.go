@@ -7,7 +7,7 @@ import (
 	"math"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
 )
 
 const CodecVersion = 0

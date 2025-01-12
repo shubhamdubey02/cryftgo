@@ -9,11 +9,11 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/linked"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/setmap"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/setmap"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 const (

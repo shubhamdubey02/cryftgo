@@ -8,10 +8,10 @@ import (
 	"net/http"
 
 	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
 
-	httppb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/http"
-	responsewriterpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/http/responsewriter"
+	httppb "github.com/shubhamdubey02/cryftgo/proto/pb/http"
+	responsewriterpb "github.com/shubhamdubey02/cryftgo/proto/pb/http/responsewriter"
 )
 
 var _ http.Handler = (*Client)(nil)

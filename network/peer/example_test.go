@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/message"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/router"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/router"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 func ExampleStartTestPeer() {

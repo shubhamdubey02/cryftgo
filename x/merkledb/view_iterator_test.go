@@ -15,7 +15,7 @@ import (
 	"golang.org/x/exp/maps"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
 )
 
 func Test_View_Iterator(t *testing.T) {

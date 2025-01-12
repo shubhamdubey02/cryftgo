@@ -13,10 +13,10 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math/meter"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgo/utils/math/meter"
+	"github.com/shubhamdubey02/cryftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 )
 
 func TestNewSystemThrottler(t *testing.T) {

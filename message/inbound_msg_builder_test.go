@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 )
 
 func Test_newMsgBuilder(t *testing.T) {

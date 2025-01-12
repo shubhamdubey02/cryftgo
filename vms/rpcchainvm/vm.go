@@ -15,14 +15,14 @@ import (
 	"google.golang.org/grpc/health"
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/gruntime"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/gruntime"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
 
-	vmpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm"
-	runtimepb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm/runtime"
+	vmpb "github.com/shubhamdubey02/cryftgo/proto/pb/vm"
+	runtimepb "github.com/shubhamdubey02/cryftgo/proto/pb/vm/runtime"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 

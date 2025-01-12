@@ -11,7 +11,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
 
-	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 // NewGetAndPostHandler returns a health handler that supports GET and jsonrpc

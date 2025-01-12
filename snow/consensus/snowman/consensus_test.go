@@ -17,11 +17,11 @@ import (
 	"gonum.org/v1/gonum/mathext/prng"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman/snowmantest"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/snowtest"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman/snowmantest"
+	"github.com/shubhamdubey02/cryftgo/snow/snowtest"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 type testFunc func(*testing.T, Factory)

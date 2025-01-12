@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 // Consensus represents a general snow instance that can be used directly to

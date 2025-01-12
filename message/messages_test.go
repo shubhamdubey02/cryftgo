@@ -14,10 +14,10 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/staking"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/staking"
+	"github.com/shubhamdubey02/cryftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 func TestMessage(t *testing.T) {

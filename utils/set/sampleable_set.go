@@ -9,10 +9,10 @@ import (
 	"slices"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
-	avajson "github.com/shubhamdubey02/cryftgoftgo/utils/json"
+	avajson "github.com/shubhamdubey02/cryftgo/utils/json"
 )
 
 var _ json.Marshaler = (*Set[int])(nil)

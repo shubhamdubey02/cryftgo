@@ -13,11 +13,11 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/validatorstate"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/validatorstate"
 )
 
 var errCustom = errors.New("custom")

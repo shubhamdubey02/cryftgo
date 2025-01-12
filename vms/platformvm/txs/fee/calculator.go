@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/upgrade"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/upgrade"
 )
 
 var _ txs.Visitor = (*calculator)(nil)

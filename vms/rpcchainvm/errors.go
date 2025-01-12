@@ -5,9 +5,9 @@ package rpcchainvm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 
-	vmpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm"
+	vmpb "github.com/shubhamdubey02/cryftgo/proto/pb/vm"
 )
 
 var (

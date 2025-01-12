@@ -14,9 +14,9 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/shubhamdubey02/cryftgo/node"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ulimit"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/utils/ulimit"
 )
 
 const Header = `

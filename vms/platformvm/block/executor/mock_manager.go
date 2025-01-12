@@ -13,11 +13,11 @@ import (
 	reflect "reflect"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	snowman "github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	block "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/block"
-	state "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/state"
-	txs "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	snowman "github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	set "github.com/shubhamdubey02/cryftgo/utils/set"
+	block "github.com/shubhamdubey02/cryftgo/vms/platformvm/block"
+	state "github.com/shubhamdubey02/cryftgo/vms/platformvm/state"
+	txs "github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

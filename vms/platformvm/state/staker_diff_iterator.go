@@ -5,7 +5,7 @@ package state
 
 import (
 	"github.com/shubhamdubey02/cryftgo/utils/heap"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 var (

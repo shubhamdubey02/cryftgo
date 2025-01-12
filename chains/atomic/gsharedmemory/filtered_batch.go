@@ -6,7 +6,7 @@ package gsharedmemory
 import (
 	"github.com/shubhamdubey02/cryftgo/utils/set"
 
-	sharedmemorypb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/shubhamdubey02/cryftgo/proto/pb/sharedmemory"
 )
 
 type filteredBatch struct {

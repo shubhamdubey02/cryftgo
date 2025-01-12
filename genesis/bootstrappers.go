@@ -10,9 +10,9 @@ import (
 	_ "embed"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/sampler"
 )
 
 var (

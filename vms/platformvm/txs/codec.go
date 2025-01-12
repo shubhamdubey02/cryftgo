@@ -7,12 +7,12 @@ import (
 	"math"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/linearcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/stakeable"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/codec/linearcodec"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/stakeable"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 const CodecVersion = 0

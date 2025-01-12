@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/network"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/network"
 )
 
 var DefaultExecutionConfig = ExecutionConfig{

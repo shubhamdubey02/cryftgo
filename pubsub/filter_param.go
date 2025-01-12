@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/pubsub/bloom"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 type FilterParam struct {

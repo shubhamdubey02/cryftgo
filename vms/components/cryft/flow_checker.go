@@ -7,8 +7,8 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 var ErrInsufficientFunds = errors.New("insufficient funds")

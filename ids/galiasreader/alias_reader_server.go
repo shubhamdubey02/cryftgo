@@ -8,7 +8,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/ids"
 
-	aliasreaderpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/aliasreader"
+	aliasreaderpb "github.com/shubhamdubey02/cryftgo/proto/pb/aliasreader"
 )
 
 var _ aliasreaderpb.AliasReaderServer = (*Server)(nil)

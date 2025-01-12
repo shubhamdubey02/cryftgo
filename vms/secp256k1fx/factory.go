@@ -5,7 +5,7 @@ package secp256k1fx
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/fx"
+	"github.com/shubhamdubey02/cryftgo/vms/fx"
 )
 
 const Name = "secp256k1fx"

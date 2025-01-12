@@ -15,15 +15,15 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/trace"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
-	"github.com/shubhamdubey02/cryftgoftgo/x/merkledb"
+	"github.com/shubhamdubey02/cryftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/trace"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/x/merkledb"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/sync"
 )
 
 func newDefaultDBConfig() merkledb.Config {

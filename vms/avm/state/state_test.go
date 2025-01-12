@@ -11,15 +11,15 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/database/memdb"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/version"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 const trackChecksums = false

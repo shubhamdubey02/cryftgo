@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 // Connector represents a handler that is called when a connection is marked as

@@ -9,8 +9,8 @@ import (
 	_ "embed"
 
 	"github.com/shubhamdubey02/cryftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs/fee"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs/fee"
 )
 
 var (

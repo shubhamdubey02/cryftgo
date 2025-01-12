@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/api/info"
-	"github.com/shubhamdubey02/cryftgoftgo/config"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/e2e"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/e2e"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

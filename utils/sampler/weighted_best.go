@@ -10,7 +10,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 
-	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var (

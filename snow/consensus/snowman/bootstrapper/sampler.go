@@ -7,8 +7,8 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/utils/math"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/sampler"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/sampler"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 var errUnexpectedSamplerFailure = errors.New("unexpected sampler failure")

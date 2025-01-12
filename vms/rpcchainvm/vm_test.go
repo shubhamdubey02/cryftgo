@@ -17,12 +17,12 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime/subprocess"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime/subprocess"
 
-	vmpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/vm"
+	vmpb "github.com/shubhamdubey02/cryftgo/proto/pb/vm"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
 )
 
 var (

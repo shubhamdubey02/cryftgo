@@ -9,7 +9,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
 
-	messengerpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/messenger"
+	messengerpb "github.com/shubhamdubey02/cryftgo/proto/pb/messenger"
 )
 
 var (

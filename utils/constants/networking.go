@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 )
 
 const (

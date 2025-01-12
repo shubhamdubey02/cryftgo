@@ -18,10 +18,10 @@ import (
 	_ "embed"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/genesis"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/genesis"
 )
 
 var (

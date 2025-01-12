@@ -15,7 +15,7 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/storage"
+	"github.com/shubhamdubey02/cryftgo/utils/storage"
 )
 
 var (

@@ -5,7 +5,7 @@ package handler
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 func getIDs(idsBytes [][]byte) (set.Set[ids.ID], error) {

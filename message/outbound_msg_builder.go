@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 var _ OutboundMsgBuilder = (*outMsgBuilder)(nil)

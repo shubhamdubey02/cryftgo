@@ -9,9 +9,9 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/trace"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/trace"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

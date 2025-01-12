@@ -5,9 +5,9 @@ package state
 
 import (
 	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/avalanche/vertex"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/avalanche/vertex"
 )
 
 const (

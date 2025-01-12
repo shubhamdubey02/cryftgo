@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/metric"
+	"github.com/shubhamdubey02/cryftgo/utils/metric"
 )
 
 const opLabel = "op"

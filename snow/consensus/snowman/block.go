@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
 )
 
 // Block is a possible decision that dictates the next canonical block.

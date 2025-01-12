@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 func newTestIPTracker(t *testing.T) *ipTracker {

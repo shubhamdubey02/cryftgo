@@ -7,16 +7,16 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/message"
-	"github.com/shubhamdubey02/cryftgoftgo/network/throttling"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/router"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/uptime"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgo/message"
+	"github.com/shubhamdubey02/cryftgo/network/throttling"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/router"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgo/snow/uptime"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 type Config struct {

@@ -5,9 +5,9 @@ package avm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/api"
-	"github.com/shubhamdubey02/cryftgoftgo/pubsub"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/pubsub"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 )
 
 var _ pubsub.Filterer = (*connector)(nil)

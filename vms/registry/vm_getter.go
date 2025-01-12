@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/filesystem"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/utils/filesystem"
+	"github.com/shubhamdubey02/cryftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
 )
 
 var (

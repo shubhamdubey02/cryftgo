@@ -11,10 +11,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/message"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/benchlist"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer"
+	"github.com/shubhamdubey02/cryftgo/message"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/benchlist"
+	"github.com/shubhamdubey02/cryftgo/utils/timer"
 )
 
 var _ Manager = (*manager)(nil)

@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 
-	statelessblock "github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/block"
+	statelessblock "github.com/shubhamdubey02/cryftgo/vms/proposervm/block"
 )
 
 var _ block.BatchedChainVM = (*VM)(nil)

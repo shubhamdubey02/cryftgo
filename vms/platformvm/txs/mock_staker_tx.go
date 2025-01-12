@@ -14,7 +14,7 @@ import (
 	time "time"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	bls "github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
+	bls "github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
 	gomock "go.uber.org/mock/gomock"
 )
 

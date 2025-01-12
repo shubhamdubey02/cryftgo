@@ -5,12 +5,12 @@ package snowman
 
 import (
 	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common/tracker"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common/tracker"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
 )
 
 // Config wraps all the parameters needed for a snowman engine

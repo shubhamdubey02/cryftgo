@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/signer"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 func ExampleWallet() {

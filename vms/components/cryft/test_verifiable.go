@@ -5,7 +5,7 @@ package cryft
 
 import (
 	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
 )
 
 var (

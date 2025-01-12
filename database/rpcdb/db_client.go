@@ -11,10 +11,10 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
-	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb"
 )
 
 var (

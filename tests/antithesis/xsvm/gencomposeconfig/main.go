@@ -9,9 +9,9 @@ import (
 	"os"
 
 	"github.com/shubhamdubey02/cryftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/antithesis"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/subnet"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/tests/antithesis"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/subnet"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-xsvm"

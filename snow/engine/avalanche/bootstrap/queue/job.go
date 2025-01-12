@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // Job defines the interface required to be placed on the job queue.

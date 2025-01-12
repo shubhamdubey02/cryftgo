@@ -12,7 +12,7 @@ import (
 	"gonum.org/v1/gonum/mathext/prng"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 const initialUnaryDescription = "SB(PreferenceStrength = 0, SF(Confidence = 0, Finalized = false)) Bits = [0, 256)"

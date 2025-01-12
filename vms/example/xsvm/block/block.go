@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
 )
 
 // Stateless blocks are blocks as they are marshalled/unmarshalled and sent over

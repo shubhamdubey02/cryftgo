@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 )
 
 func NewDeterministicChainUTXOs(require *require.Assertions, utxoSets map[ids.ID][]*cryft.UTXO) *DeterministicChainUTXOs {

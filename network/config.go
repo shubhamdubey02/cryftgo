@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/network/dialer"
-	"github.com/shubhamdubey02/cryftgoftgo/network/throttling"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/tracker"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/uptime"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/compression"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/network/dialer"
+	"github.com/shubhamdubey02/cryftgo/network/throttling"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/tracker"
+	"github.com/shubhamdubey02/cryftgo/snow/uptime"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/utils/compression"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 )
 
 // HealthConfig describes parameters for network layer health checks.

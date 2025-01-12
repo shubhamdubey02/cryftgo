@@ -12,8 +12,8 @@ import (
 	"golang.org/x/term"
 
 	"github.com/shubhamdubey02/cryftgo/app"
-	"github.com/shubhamdubey02/cryftgoftgo/config"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 func main() {

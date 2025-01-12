@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/codec"
-	"github.com/shubhamdubey02/cryftgoftgo/codec/reflectcodec"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bimap"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/codec/reflectcodec"
+	"github.com/shubhamdubey02/cryftgo/utils/bimap"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 var (

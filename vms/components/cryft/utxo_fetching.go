@@ -9,10 +9,10 @@ import (
 	"math"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
-	safemath "github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	safemath "github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 // GetBalance returns the current balance of [addrs]

@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/cb58"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/utils/cb58"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
 )
 
 const (

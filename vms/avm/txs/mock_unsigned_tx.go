@@ -13,9 +13,9 @@ import (
 	reflect "reflect"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	snow "github.com/shubhamdubey02/cryftgoftgo/snow"
-	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	cryft "github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
+	snow "github.com/shubhamdubey02/cryftgo/snow"
+	set "github.com/shubhamdubey02/cryftgo/utils/set"
+	cryft "github.com/shubhamdubey02/cryftgo/vms/components/cryft"
 	gomock "go.uber.org/mock/gomock"
 )
 

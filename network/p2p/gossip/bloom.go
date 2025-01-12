@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/utils/bloom"
 )
 
 // NewBloomFilter returns a new instance of a bloom filter with at least [minTargetElements] elements

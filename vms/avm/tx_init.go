@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/shubhamdubey02/cryftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
 )
 
 var _ txs.Visitor = (*txInit)(nil)

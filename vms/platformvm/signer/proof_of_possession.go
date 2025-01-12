@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
 )
 
 var (

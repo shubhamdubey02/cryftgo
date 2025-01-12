@@ -8,11 +8,11 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime/subprocess"
+	"github.com/shubhamdubey02/cryftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime/subprocess"
 )
 
 var _ vms.Factory = (*factory)(nil)

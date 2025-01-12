@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgo/version"
 )
 
 const cliVersion = "0.0.1"

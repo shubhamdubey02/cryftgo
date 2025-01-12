@@ -12,9 +12,9 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
 
-	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb"
 )
 
 const iterationBatchSize = 128 * units.KiB

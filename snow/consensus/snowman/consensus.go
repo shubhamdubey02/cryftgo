@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/api/health"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowball"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bag"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowball"
+	"github.com/shubhamdubey02/cryftgo/utils/bag"
 )
 
 // Consensus represents a general snowman instance that can be used directly to

@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/subnets"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/subnets"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
 )
 
 var ErrNoPrimaryNetworkConfig = errors.New("no subnet config for primary network found")

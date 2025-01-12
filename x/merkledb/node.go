@@ -7,7 +7,7 @@ import (
 	"slices"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
 )
 
 // Representation of a node stored in the database.

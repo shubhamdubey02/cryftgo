@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 
-	txmempool "github.com/shubhamdubey02/cryftgoftgo/vms/txs/mempool"
+	txmempool "github.com/shubhamdubey02/cryftgo/vms/txs/mempool"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms"
 )
 
 var _ VMRegistry = (*vmRegistry)(nil)

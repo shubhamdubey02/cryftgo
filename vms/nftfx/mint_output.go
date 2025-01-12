@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 
 	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 var _ verify.State = (*MintOutput)(nil)

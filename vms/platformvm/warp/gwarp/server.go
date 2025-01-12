@@ -7,9 +7,9 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/warp"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/warp"
 )
 
 var _ pb.SignerServer = (*Server)(nil)

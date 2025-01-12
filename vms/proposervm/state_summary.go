@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/summary"
+	"github.com/shubhamdubey02/cryftgo/vms/proposervm/summary"
 )
 
 var _ block.StateSummary = (*stateSummary)(nil)

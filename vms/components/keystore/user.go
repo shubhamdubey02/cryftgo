@@ -8,12 +8,12 @@ import (
 	"io"
 
 	"github.com/shubhamdubey02/cryftgo/api/keystore"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/encdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database/encdb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 // Max number of addresses allowed for a single keystore user

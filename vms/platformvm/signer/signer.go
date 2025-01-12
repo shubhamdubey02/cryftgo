@@ -5,7 +5,7 @@ package signer
 
 import (
 	"github.com/shubhamdubey02/cryftgo/utils/crypto/bls"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/verify"
+	"github.com/shubhamdubey02/cryftgo/vms/components/verify"
 )
 
 type Signer interface {

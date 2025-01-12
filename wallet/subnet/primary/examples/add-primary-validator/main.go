@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/api/info"
-	"github.com/shubhamdubey02/cryftgoftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/units"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/reward"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/genesis"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/units"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/reward"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
 )
 
 func main() {

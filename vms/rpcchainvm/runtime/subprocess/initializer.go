@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/version"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
 )
 
 var _ runtime.Initializer = (*initializer)(nil)

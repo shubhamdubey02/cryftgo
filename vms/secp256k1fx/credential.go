@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
 )
 
 var ErrNilCredential = errors.New("nil credential")

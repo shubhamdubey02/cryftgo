@@ -7,15 +7,15 @@ import (
 	"net/http"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/builder"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/chain"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/state"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/warp"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/builder"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/chain"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/state"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/warp"
 )
 
 // Server defines the xsvm API server.

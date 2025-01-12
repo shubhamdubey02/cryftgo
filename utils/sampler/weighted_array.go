@@ -7,7 +7,7 @@ import (
 	"cmp"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math"
+	"github.com/shubhamdubey02/cryftgo/utils/math"
 )
 
 var (

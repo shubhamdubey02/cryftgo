@@ -11,14 +11,14 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/message"
-	"github.com/shubhamdubey02/cryftgoftgo/proto/pb/p2p"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/handler"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/networking/timeout"
-	"github.com/shubhamdubey02/cryftgoftgo/trace"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/version"
+	"github.com/shubhamdubey02/cryftgo/message"
+	"github.com/shubhamdubey02/cryftgo/proto/pb/p2p"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/handler"
+	"github.com/shubhamdubey02/cryftgo/snow/networking/timeout"
+	"github.com/shubhamdubey02/cryftgo/trace"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/version"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

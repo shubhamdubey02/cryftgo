@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/fx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/status"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/fx"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/status"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 var (

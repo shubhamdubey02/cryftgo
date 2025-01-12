@@ -13,10 +13,10 @@ import (
 	reflect "reflect"
 
 	ids "github.com/shubhamdubey02/cryftgo/ids"
-	message "github.com/shubhamdubey02/cryftgoftgo/message"
-	common "github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	subnets "github.com/shubhamdubey02/cryftgoftgo/subnets"
-	set "github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	message "github.com/shubhamdubey02/cryftgo/message"
+	common "github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	subnets "github.com/shubhamdubey02/cryftgo/subnets"
+	set "github.com/shubhamdubey02/cryftgo/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
 
-	messengerpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/messenger"
+	messengerpb "github.com/shubhamdubey02/cryftgo/proto/pb/messenger"
 )
 
 // Client is an implementation of a messenger channel that talks over RPC.

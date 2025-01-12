@@ -14,8 +14,8 @@ import (
 	reflect "reflect"
 
 	database "github.com/shubhamdubey02/cryftgo/database"
-	ids "github.com/shubhamdubey02/cryftgoftgo/ids"
-	maybe "github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	ids "github.com/shubhamdubey02/cryftgo/ids"
+	maybe "github.com/shubhamdubey02/cryftgo/utils/maybe"
 	gomock "go.uber.org/mock/gomock"
 )
 

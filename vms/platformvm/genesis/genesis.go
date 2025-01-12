@@ -5,7 +5,7 @@ package genesis
 
 import (
 	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
 )
 
 // UTXO adds messages to UTXOs

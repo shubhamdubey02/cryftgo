@@ -9,7 +9,7 @@ import (
 	"github.com/google/btree"
 
 	"github.com/shubhamdubey02/cryftgo/utils/heap"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
 )
 
 // A priority queue of syncWorkItems.

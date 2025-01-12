@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/snowtest"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/snow/snowtest"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
 )
 
 var minimumFailingDuration = 5 * time.Minute

@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/indexer"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/proposervm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/indexer"
+	"github.com/shubhamdubey02/cryftgo/vms/proposervm/block"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/x/builder"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
 )
 
 // This example program continuously polls for the next X-Chain block

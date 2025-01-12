@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/genesis"
 )
 
 func NewXSVMOrPanic(name string, key *secp256k1.PrivateKey, nodes ...*tmpnet.Node) *tmpnet.Subnet {

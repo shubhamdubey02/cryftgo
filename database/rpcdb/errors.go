@@ -6,7 +6,7 @@ package rpcdb
 import (
 	"github.com/shubhamdubey02/cryftgo/database"
 
-	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb"
 )
 
 var (

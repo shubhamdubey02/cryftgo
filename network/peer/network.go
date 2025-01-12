@@ -5,8 +5,8 @@ package peer
 
 import (
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/bloom"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/bloom"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 // Network defines the interface that is used by a peer to help establish a well

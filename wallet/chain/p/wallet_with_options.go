@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/components/cryft"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/vms/components/cryft"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/p/builder"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 
-	vmsigner "github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/signer"
-	walletsigner "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/signer"
+	vmsigner "github.com/shubhamdubey02/cryftgo/vms/platformvm/signer"
+	walletsigner "github.com/shubhamdubey02/cryftgo/wallet/chain/p/signer"
 )
 
 var _ Wallet = (*walletWithOptions)(nil)

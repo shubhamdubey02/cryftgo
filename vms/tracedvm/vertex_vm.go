@@ -9,11 +9,11 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/avalanche/vertex"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/trace"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/avalanche/vertex"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/trace"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

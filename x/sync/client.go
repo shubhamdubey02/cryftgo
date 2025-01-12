@@ -15,11 +15,11 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
-	"github.com/shubhamdubey02/cryftgoftgo/x/merkledb"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/x/merkledb"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/sync"
 )
 
 const (

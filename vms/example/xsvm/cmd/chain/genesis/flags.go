@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/shubhamdubey02/cryftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 
-	xsgenesis "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/genesis"
+	xsgenesis "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/genesis"
 )
 
 const (

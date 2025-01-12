@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
 )
 
 var _ Cacher[struct{}, struct{}] = (*LRU[struct{}, struct{}])(nil)

@@ -12,13 +12,13 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/chains/atomic"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/state"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs/executor"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/state"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs/executor"
 )
 
 const SyncBound = 10 * time.Second

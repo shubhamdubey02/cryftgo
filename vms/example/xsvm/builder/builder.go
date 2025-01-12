@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/linked"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/chain"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/execute"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/chain"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/execute"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
 
-	smblock "github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	xsblock "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
+	smblock "github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	xsblock "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
 )
 
 const MaxTxsPerBlock = 10

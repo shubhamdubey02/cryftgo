@@ -10,10 +10,10 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/message"
-	"github.com/shubhamdubey02/cryftgoftgo/network/throttling"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/buffer"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/message"
+	"github.com/shubhamdubey02/cryftgo/network/throttling"
+	"github.com/shubhamdubey02/cryftgo/utils/buffer"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
 )
 
 const initialQueueSize = 64

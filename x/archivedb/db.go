@@ -9,7 +9,7 @@ import (
 	"io"
 
 	"github.com/shubhamdubey02/cryftgo/api/health"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 var (

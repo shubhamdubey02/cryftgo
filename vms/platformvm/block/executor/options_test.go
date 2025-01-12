@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/block"
 )
 
 func TestOptionsUnexpectedBlockType(t *testing.T) {

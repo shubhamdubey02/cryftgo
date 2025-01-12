@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/tx"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/tx"
 )
 
 type TxIssuance struct {

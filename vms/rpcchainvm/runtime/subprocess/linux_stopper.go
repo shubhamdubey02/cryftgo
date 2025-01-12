@@ -17,8 +17,8 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/wrappers"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/runtime"
+	"github.com/shubhamdubey02/cryftgo/utils/wrappers"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/runtime"
 )
 
 func NewCmd(path string, args ...string) *exec.Cmd {

@@ -10,15 +10,15 @@ import (
 
 	// ensure test packages are scanned by ginkgo
 	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/banff"
-	_ "github.com/shubhamdubey02/cryftgoftgo/tests/e2e/c"
-	_ "github.com/shubhamdubey02/cryftgoftgo/tests/e2e/faultinjection"
-	_ "github.com/shubhamdubey02/cryftgoftgo/tests/e2e/p"
-	_ "github.com/shubhamdubey02/cryftgoftgo/tests/e2e/x"
-	_ "github.com/shubhamdubey02/cryftgoftgo/tests/e2e/x/transfer"
+	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/c"
+	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/faultinjection"
+	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/p"
+	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/x"
+	_ "github.com/shubhamdubey02/cryftgo/tests/e2e/x/transfer"
 
-	"github.com/shubhamdubey02/cryftgoftgo/tests/e2e/vms"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/e2e"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/tests/e2e/vms"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/e2e"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

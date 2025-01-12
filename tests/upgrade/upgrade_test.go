@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/tests/fixture/e2e"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
 )
 
 func TestUpgrade(t *testing.T) {

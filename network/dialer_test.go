@@ -9,7 +9,7 @@ import (
 	"net"
 
 	"github.com/shubhamdubey02/cryftgo/network/dialer"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/ips"
+	"github.com/shubhamdubey02/cryftgo/utils/ips"
 )
 
 var (

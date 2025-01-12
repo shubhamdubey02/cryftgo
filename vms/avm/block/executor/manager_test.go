@@ -12,10 +12,10 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/state"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/txs"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/state"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/txs"
 )
 
 var (

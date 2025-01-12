@@ -5,10 +5,10 @@ package builder
 
 import (
 	"github.com/shubhamdubey02/cryftgo/vms/avm/block"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/avm/fxs"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/nftfx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/propertyfx"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/vms/avm/fxs"
+	"github.com/shubhamdubey02/cryftgo/vms/nftfx"
+	"github.com/shubhamdubey02/cryftgo/vms/propertyfx"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
 )
 
 const (

@@ -18,11 +18,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/tests"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/secp256k1fx"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/tests"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/vms/secp256k1fx"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

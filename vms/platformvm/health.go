@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
 )
 
 func (vm *VM) HealthCheck(context.Context) (interface{}, error) {

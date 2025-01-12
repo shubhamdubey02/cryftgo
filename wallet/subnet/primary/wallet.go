@@ -7,19 +7,19 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/constants"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/keychain"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/txs"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/c"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary/common"
+	"github.com/shubhamdubey02/cryftgo/utils/constants"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/keychain"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/txs"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/c"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/p"
+	"github.com/shubhamdubey02/cryftgo/wallet/chain/x"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary/common"
 
-	pbuilder "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/builder"
-	psigner "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/p/signer"
-	xbuilder "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/builder"
-	xsigner "github.com/shubhamdubey02/cryftgoftgo/wallet/chain/x/signer"
+	pbuilder "github.com/shubhamdubey02/cryftgo/wallet/chain/p/builder"
+	psigner "github.com/shubhamdubey02/cryftgo/wallet/chain/p/signer"
+	xbuilder "github.com/shubhamdubey02/cryftgo/wallet/chain/x/builder"
+	xsigner "github.com/shubhamdubey02/cryftgo/wallet/chain/x/signer"
 )
 
 var _ Wallet = (*wallet)(nil)

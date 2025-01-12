@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/shubhamdubey02/cryftgo/genesis"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
 )
 
 const (

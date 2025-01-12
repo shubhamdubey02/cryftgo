@@ -12,14 +12,14 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/ghttp/gconn"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/ghttp/greader"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/ghttp/greader"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
 
-	responsewriterpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/http/responsewriter"
-	readerpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/io/reader"
-	writerpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/io/writer"
-	connpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/net/conn"
+	responsewriterpb "github.com/shubhamdubey02/cryftgo/proto/pb/http/responsewriter"
+	readerpb "github.com/shubhamdubey02/cryftgo/proto/pb/io/reader"
+	writerpb "github.com/shubhamdubey02/cryftgo/proto/pb/io/writer"
+	connpb "github.com/shubhamdubey02/cryftgo/proto/pb/net/conn"
 )
 
 var (

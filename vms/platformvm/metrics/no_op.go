@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/rpc/v2"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/block"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/block"
 )
 
 var Noop Metrics = noopMetrics{}

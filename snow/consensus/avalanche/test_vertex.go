@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowstorm"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowstorm"
 )
 
 var _ Vertex = (*TestVertex)(nil)

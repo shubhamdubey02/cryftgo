@@ -9,7 +9,7 @@ import (
 	"golang.org/x/exp/maps"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
 )
 
 // Tree handles the propagation of block acceptance and rejection to inner

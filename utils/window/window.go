@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/buffer"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/timer/mockable"
+	"github.com/shubhamdubey02/cryftgo/utils/buffer"
+	"github.com/shubhamdubey02/cryftgo/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = (*window[struct{}])(nil)

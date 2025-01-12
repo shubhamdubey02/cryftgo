@@ -8,9 +8,9 @@ import (
 	"net/http"
 
 	"github.com/shubhamdubey02/cryftgo/api/health"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/validators"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

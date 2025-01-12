@@ -9,17 +9,17 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/choices"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/consensus/snowman"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/execute"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/state"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/snow/choices"
+	"github.com/shubhamdubey02/cryftgo/snow/consensus/snowman"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/execute"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/state"
 
-	smblock "github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	xsblock "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
+	smblock "github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	xsblock "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
 )
 
 const maxClockSkew = 10 * time.Second

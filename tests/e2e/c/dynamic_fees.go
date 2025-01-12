@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/shubhamdubey02/cryftgo/tests"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/e2e"
-	"github.com/shubhamdubey02/cryftgoftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/crypto/secp256k1"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/e2e"
+	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
+	"github.com/shubhamdubey02/cryftgo/utils/crypto/secp256k1"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

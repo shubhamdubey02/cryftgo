@@ -7,12 +7,12 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/api/keystore"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/database/rpcdb"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/rpcchainvm/grpcutils"
+	"github.com/shubhamdubey02/cryftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database/rpcdb"
+	"github.com/shubhamdubey02/cryftgo/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/keystore"
-	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
+	keystorepb "github.com/shubhamdubey02/cryftgo/proto/pb/keystore"
+	rpcdbpb "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb"
 )
 
 var _ keystorepb.KeystoreServer = (*Server)(nil)

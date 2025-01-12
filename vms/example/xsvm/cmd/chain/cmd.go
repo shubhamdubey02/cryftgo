@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/chain/create"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/cmd/chain/genesis"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/cmd/chain/genesis"
 )
 
 func Command() *cobra.Command {

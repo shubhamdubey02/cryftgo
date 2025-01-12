@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/shubhamdubey02/cryftgo/staking"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/hashing"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/hashing"
 )
 
 const (

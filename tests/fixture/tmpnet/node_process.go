@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/api/health"
-	"github.com/shubhamdubey02/cryftgoftgo/config"
-	"github.com/shubhamdubey02/cryftgoftgo/node"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/config"
+	"github.com/shubhamdubey02/cryftgo/node"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
 )
 
 const (

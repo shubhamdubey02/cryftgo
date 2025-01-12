@@ -10,11 +10,11 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/maybe"
-	"github.com/shubhamdubey02/cryftgoftgo/x/merkledb"
-	"github.com/shubhamdubey02/cryftgoftgo/x/sync"
+	"github.com/shubhamdubey02/cryftgo/utils/maybe"
+	"github.com/shubhamdubey02/cryftgo/x/merkledb"
+	"github.com/shubhamdubey02/cryftgo/x/sync"
 
-	pb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/sync"
+	pb "github.com/shubhamdubey02/cryftgo/proto/pb/sync"
 )
 
 var _ sync.DB = (*DBClient)(nil)

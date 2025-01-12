@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/shubhamdubey02/cryftgo/tests/fixture/tmpnet"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/perms"
+	"github.com/shubhamdubey02/cryftgo/utils/perms"
 )
 
 // Given a path, compose the expected path of the bootstrap node's docker compose db volume.

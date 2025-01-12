@@ -7,10 +7,10 @@ import (
 	"context"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/snow/engine/common"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/set"
+	"github.com/shubhamdubey02/cryftgo/snow/engine/common"
+	"github.com/shubhamdubey02/cryftgo/utils/set"
 
-	appsenderpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/appsender"
+	appsenderpb "github.com/shubhamdubey02/cryftgo/proto/pb/appsender"
 )
 
 var _ common.AppSender = (*Client)(nil)

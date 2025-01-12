@@ -7,7 +7,7 @@ import (
 	"github.com/google/btree"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/ids"
 )
 
 type Stakers interface {

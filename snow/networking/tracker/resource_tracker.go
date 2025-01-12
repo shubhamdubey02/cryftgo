@@ -11,10 +11,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/linked"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/math/meter"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/resource"
+	"github.com/shubhamdubey02/cryftgo/utils"
+	"github.com/shubhamdubey02/cryftgo/utils/linked"
+	"github.com/shubhamdubey02/cryftgo/utils/math/meter"
+	"github.com/shubhamdubey02/cryftgo/utils/resource"
 )
 
 const epsilon = 1e-9

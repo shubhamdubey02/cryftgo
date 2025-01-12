@@ -11,13 +11,13 @@ import (
 	"go.uber.org/mock/gomock"
 
 	"github.com/shubhamdubey02/cryftgo/database/memdb"
-	"github.com/shubhamdubey02/cryftgoftgo/ids"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/formatting"
-	"github.com/shubhamdubey02/cryftgoftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/registry"
+	"github.com/shubhamdubey02/cryftgo/ids"
+	"github.com/shubhamdubey02/cryftgo/utils/formatting"
+	"github.com/shubhamdubey02/cryftgo/utils/logging"
+	"github.com/shubhamdubey02/cryftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms/registry"
 
-	rpcdbpb "github.com/shubhamdubey02/cryftgoftgo/proto/pb/rpcdb"
+	rpcdbpb "github.com/shubhamdubey02/cryftgo/proto/pb/rpcdb"
 )
 
 type loadVMsTest struct {

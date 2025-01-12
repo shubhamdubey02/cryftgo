@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/shubhamdubey02/cryftgo/database/prefixdb"
-	"github.com/shubhamdubey02/cryftgoftgo/database/versiondb"
+	"github.com/shubhamdubey02/cryftgo/database/versiondb"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/viper"
 
 	"github.com/shubhamdubey02/cryftgo/config"
-	"github.com/shubhamdubey02/cryftgoftgo/wallet/subnet/primary"
+	"github.com/shubhamdubey02/cryftgo/wallet/subnet/primary"
 )
 
 const (

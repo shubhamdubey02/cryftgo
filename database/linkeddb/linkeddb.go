@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/shubhamdubey02/cryftgo/cache"
-	"github.com/shubhamdubey02/cryftgoftgo/database"
+	"github.com/shubhamdubey02/cryftgo/database"
 )
 
 const (

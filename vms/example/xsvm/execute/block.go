@@ -8,11 +8,11 @@ import (
 	"errors"
 
 	"github.com/shubhamdubey02/cryftgo/database"
-	"github.com/shubhamdubey02/cryftgoftgo/snow"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/state"
+	"github.com/shubhamdubey02/cryftgo/snow"
+	"github.com/shubhamdubey02/cryftgo/vms/example/xsvm/state"
 
-	smblock "github.com/shubhamdubey02/cryftgoftgo/snow/engine/snowman/block"
-	xsblock "github.com/shubhamdubey02/cryftgoftgo/vms/example/xsvm/block"
+	smblock "github.com/shubhamdubey02/cryftgo/snow/engine/snowman/block"
+	xsblock "github.com/shubhamdubey02/cryftgo/vms/example/xsvm/block"
 )
 
 var errNoTxs = errors.New("no transactions")

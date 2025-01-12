@@ -5,8 +5,8 @@ package platformvm
 
 import (
 	"github.com/shubhamdubey02/cryftgo/utils/logging"
-	"github.com/shubhamdubey02/cryftgoftgo/vms"
-	"github.com/shubhamdubey02/cryftgoftgo/vms/platformvm/config"
+	"github.com/shubhamdubey02/cryftgo/vms"
+	"github.com/shubhamdubey02/cryftgo/vms/platformvm/config"
 )
 
 var _ vms.Factory = (*Factory)(nil)
